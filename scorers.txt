@@ -1,0 +1,68 @@
+-- Winter 2014
+1/5/2014
+2	Scott Anderson
+1	Cody Silva
+1/12/2014
+3	Scott Anderson
+2	Amy Hasson
+1	Jeff Richards
+1	Josh Allen
+1/19/2014
+3	Scott Anderson
+1	Amy Hasson
+1/26/2014
+1	Amy Hasson
+1	Jeff Richards
+2	Rosie Jaye
+2/16/2014
+2	Scott Anderson
+2	Amy Hasson
+1	Mark Lee
+2/23/2014
+2	Scott Anderson
+2	Amy Hasson
+1	Mark Lee
+3/2/2014
+4	Scott Anderson
+1	Amy Hasson
+1	Adrienne Oda
+3/9/2014
+1	Scott Anderson
+1	Amy Hasson
+2	Mark Lee
+1	Jackie Unger
+1	Jen Onaga
+2	Jacob Wegner
+2	Kathryn Bluher
+3/16/2014
+2	Scott Anderson
+1	Jeff Richards
+1	Jackie Unger
+1	Jen Onaga
+1	Rick Chen
+3/23/2014
+1	Scott Anderson
+1	Mark Lee
+3/30/2014
+3	Scott Anderson
+1	Amy Hasson
+1	Mark Lee
+-- Spring 2014
+4/6/2014
+1	Adrienne Oda
+2	Rick Chen
+4/13/2014
+1	Rick Chen
+1	Mark Lee
+4/27/2014
+2	Mark Lee
+1	Amy Hasson
+1	Scott Anderson
+3	Jeff Richards
+5/4/2014
+3	Rick Chen
+2	Scott Anderson
+1	Jen Onaga
+5/18/2014
+2	Jeff Richards
+1	Mark Lee
