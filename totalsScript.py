@@ -1,3 +1,4 @@
+# player() Object
 class player:
    def __init__(self):
       self.total = 0
@@ -20,15 +21,21 @@ class player:
    def getSeasons(self):
       return self.seasons.keys()
       
-   def getSeasonTotal(self, season):
+   def getSeasonGoalsTotal(self, season):
       total = 0
       if season in self.seasons:
          goalsForSeason = self.seasons[season].values()
          for amt in goalsForSeason: total = total + int(amt)
       return total
+   
+   def getSeasonGamesTotal(self, season):
+      if season in self.seasons:
+         return len(self.seasons[season].keys())
+      else:
+         return 0
 
 # readFile()
-# Reads the scorer.txt file      
+# Reads the scorers.txt file      
 def readFile():
    scorers = open("scorers.txt", "r")
    season = ""
