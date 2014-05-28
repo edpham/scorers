@@ -568,8 +568,130 @@ Result: 3-3 Draw vs. Rochambeau
 Result: 1-7 Loss vs. Chicken Dinner
 
 -- Fall 2011
+9/11/2011
+Result: 2-3 Loss vs. Chicken Dinner
+1	Scott Anderson
+1	Mike Certo
+9/18/2011
+Result: 0-1 Loss vs. Cheetos
+9/25/2011
+Result: 4-4 Draw vs. Los Bichos
+2	Scott Anderson
+1	Mike Certo
+1	Ben Johnson
+10/2/2011
+Result: 1-5 Loss vs. Rochambeau
+1	Scott Anderson
+10/9/2011
+Result: 3-2 Win vs. Monsters of Rock
+2	Scott Anderson
+1	David Ghanaie
+10/16/2011
+Result: 2-1 Win vs. Chicken Dinner
+1	Ben Johnson
+1	Donald Bressler
+10/23/2011
+Result: 3-4 Loss vs. Cheetos
+1	Kathryn Bluher
+2	Scott Anderson
+10/30/2011
+Result: 7-2 Win vs. Los Bichos
+5	Scott Anderson
+1	David Chanaie
+1	Mike Certo
+11/6/2011
+Result: 2-2 Draw vs. Rochambeau
+2	Scott Anderson
+11/13/2011
+Result: 4-3 Win vs. Monsters of Rock
+3	Scott Anderson
+1	Mike Certo
 
+-- Winter 2012
+1/8/2012
+Result: 7-0 Win vs. Goonies
+1	Kathryn Bluher
+1	Mike Certo
+3	Scott Anderson
+1	Jeff Richards
+1	Ben Johnson
+1/22/2012
+Result: 9-0 Win vs. Vikings
+1	Mike Certo
+2	Irene Kendig
+3	Scott Anderson
+1	Claire Reinart
+1	David Ghanaie
+1	Jackie Unger
+1/29/2012
+Result: 8-0 Win vs. Grasskickers
+1	Claire Reinart
+1	David Ghanaie
+2	Jackie Unger
+1	Ben Johnson
+2	Mike Certo
+1	Scott Anderson
+2/12/2012
+Result: 2-2 Draw vs. Lounge Iguana
+1	Ian Williams
+1	Ben Johnson
+2/19/2012
+Result: 6-0 Win vs. Carpet Sharks
+4	Scott Anderson
+1	Jeff Richards
+1	Ben Johnson
+2/26/2012
+Result: 5-0 Win vs. FC Tarof
+2	Mike Certo
+1	Ben Johnson
+2	Scott Anderson
+3/4/2012
+Result: 8-0 Win vs. FC Blue Mojo
+2	Scott Anderson
+4	Mike Certo
+1	Jackie Unger
+1	Melissa Pellman
+3/11/2012
+Result: 2-0 Win vs. FC Tarof
+2	Scott Anderson
+3/18/2012
+Result: 5-1 Win vs. Carpet Sharks
+1	Melissa Pellman
+1	Mike Certo
+2	Scott Anderson
+1	Ben Johnson
+3/25/2012
+Result: 1-1 Draw vs. Lounge Iguana
+1	Scott Anderson
 
+-- Spring 2012
+4/15/2012
+Result: 2-3 Loss vs. Rochambeau
+1	Scott Anderson
+1	Mike Certo
+4/22/2012
+Result: 3-1 Win vs. Real Dragginz United FC
+2	Scott Anderson
+1	David Ghanaie
+4/29/2012
+Result: 0-0 Draw vs. Monsters of Rock
+5/6/2012
+Result: 2-0 Win vs. Chicken Dinner
+2	Scott Anderson
+5/20/2012
+Result: 1-1 Draw vs. Rochambeau
+1	Kyle Smith
+6/3/2012
+Result: 5-1 Win vs. Real Dragginz United FC
+1	Jeff Richards
+1	David Ghanaie
+1	Donald Bressler
+1	Scott Anderson
+1	Ben Johnson
+6/10/2012
+Result: 2-2 Draw vs. Monsters of Rock
+1	Mike Certo
+1	David Ghaniae
 
 -- Fall 2012
 9/16/2013
