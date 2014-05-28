@@ -1,3 +1,5 @@
+import sys
+
 # ============
 # player Class
 # ============
@@ -118,8 +120,8 @@ class opponent:
 
 # readFile()
 # Reads the scorers.txt file      
-def readFile():
-   txt = open("scorers.txt", "r")
+def readFile(argv):
+   txt = open(argv[1], "r")
    season = ""
    date = ""
    scorers = []
@@ -202,20 +204,38 @@ def allTimeRecords(opponents):
    for opp in opponents:
       record = opponents[opp].calculateRecord()
       gd = opponents[opp].calculateGD()
-      allTime.append((opp, record[0] * 3 + record[2], record[0], record[1], record[2], gd[2]))
+      allTime.append((opp, record[0] * 3 + record[2], record[0], record[1], record[2], gd))
 
    print "\nAll Time Records"
    print "================"
    allTime = sorted(allTime, key = lambda x: (-x[1], -x[2], -x[4], x[3], x[0]))
-   for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[5], '\t', opp[0]
+   for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[5], '\t\t', opp[0]
+   
+def totalRecord(opponents):
+   total = [0, 0, 0]
+   for opp in opponents:
+      record = opponents[opp].calculateRecord()
+      for x in range(3):
+         total[x] = total[x] + record[x]
+   print "Overall record:", "-".join([str(x) for x in total])
+   
+def totalGoals(opponents):
+   total = [0, 0, 0]
+   for opp in opponents:
+      goals = opponents[opp].calculateGD()
+      for x in range(3):
+         total[x] = total[x] + goals[x]
+   print "Overall goal differential:", "-".join([str(x) for x in total])
 
 # ============ 
 # Main method
 # ============
 if __name__ == "__main__":
-   scorers, games = readFile()
+   scorers, games = readFile(sys.argv)
    allScorers = processPlayers(scorers)
    allOpponents = processOpponents(games)
    
    allTimeScorers(allScorers)
    allTimeRecords(allOpponents)
+   totalRecord(allOpponents)
+   totalGoals(allOpponents)
