@@ -61,6 +61,8 @@ class player:
    # Returns the name of the individual.
    def getName(self):
       return self.name
+      
+
 # ===============      
 # opponent Class
 # ================ 
@@ -96,7 +98,8 @@ class opponent:
             record[1] = record[1] + 1
          else:
             record[2] = record[2] + 1
-      return "-".join([str(x) for x in record])
+      
+      return record
    
    # calculateGD()
    def calculateGD(self):
@@ -136,8 +139,10 @@ def readFile():
          result.append(date)
          result.append(line.split()[1:])
          games.append(result)
-      else:
+      elif len(line.split()) > 1:
          scorers.append([line.split()[0], " ".join(line.split()[1:])])
+      else:
+         None
          
    return scorers, games
 
@@ -179,15 +184,29 @@ def processOpponents(data):
       opponents[opp] = team
       
    return opponents
-   
+
+# allTimeScorers()
+# Processes and outputs the all time scorers for the team.
 def allTimeScorers(scorers):
    allTime = []
    for scorer in scorers:
       allTime.append((scorers[scorer].getTotal(), scorer))
    allTime = sorted(allTime, key = lambda x: (-x[0], x[1]))
    
-   for player in allTime:
-      print player[0], '\t', player[1]
+   print "All Time Scorers"
+   print "================"
+   for player in allTime: print player[0], '\t', player[1]
+   
+def allTimeRecords(opponents):
+   allTime = []
+   for opp in opponents:
+      record = opponents[opp].calculateRecord()
+      allTime.append((opp, record[0] * 3 + record[2], record[0], record[1], record[2]))
+
+   print "\nAll Time Records"
+   print "================"
+   allTime = sorted(allTime, key = lambda x: (-x[1], -x[2], -x[4], x[3], x[0]))
+   for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[0]
 
 # ============
 # Main method
@@ -198,3 +217,4 @@ if __name__ == "__main__":
    allOpponents = processOpponents(games)
    
    allTimeScorers(allScorers)
+   allTimeRecords(allOpponents)
