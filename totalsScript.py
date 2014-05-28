@@ -201,14 +201,15 @@ def allTimeRecords(opponents):
    allTime = []
    for opp in opponents:
       record = opponents[opp].calculateRecord()
-      allTime.append((opp, record[0] * 3 + record[2], record[0], record[1], record[2]))
+      gd = opponents[opp].calculateGD()
+      allTime.append((opp, record[0] * 3 + record[2], record[0], record[1], record[2], gd[2]))
 
    print "\nAll Time Records"
    print "================"
    allTime = sorted(allTime, key = lambda x: (-x[1], -x[2], -x[4], x[3], x[0]))
-   for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[0]
+   for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[5], '\t', opp[0]
 
-# ============
+# ============ 
 # Main method
 # ============
 if __name__ == "__main__":
