@@ -1,0 +1,568 @@
+-- Spring 2007
+3/24/2007
+Result: 0-1 Loss vs. Real Tired
+3/31/2007
+Result: 5-0 Win vs. Los Diablitos
+3	Ian Williams
+1	Jason Airey
+1	Jenna Wild
+4/7/2007
+Result: 4-2 Win vs. Winner Buys Beer
+1	Ian Williams
+1	Jason Airey
+2	Jenna Wild
+4/14/2007
+Result: 5-0 Win vs. Hot Wings
+1	Ian Williams
+2	Jenna Wild
+1	Meaghan Mugleson
+1	Richard Kim
+4/21/2007
+Result: 3-3 Draw vs. Baca's All-Stars
+1	Ian Williams
+1	Tae Fant
+1	Stephanie Chin
+4/28/2007
+Result: 1-0 Win vs. Real Tired
+1	Jenna Wild
+5/5/2007
+Result: 2-0 Win vs. Los Diablitos
+1	Ian Williams
+1	Tyler Smith
+5/12/2007
+Result: 3-2 Win vs. Winner Buys Beer
+1	Ian Williams
+1	Richard Kim
+1	Karlyn Kwok
+5/19/2007
+Result: 4-1 Win vs. Hot Wings
+1	Ian Williams
+1	Jason Airey
+1	Jordan Lillienstein
+1	Nadia Bahrami
+6/2/2007
+Result: 6-0 Win vs. Baca's All-Stars
+1	Ian Williams
+4	Jenna Wild
+1	Tyler Smith
+6/16/2007
+Result: 2-1 Win vs. Winner Buys Beer
+
+-- Summer 2007
+6/30/2007
+Result: 6-3 Win vs. Li'l Smokies
+2	Trevor Airey
+1	Ian Williams
+1	Keegan Burmark
+1	Barry Jones
+7/7/2007
+Result: 1-3 Loss vs. Dig Your Own Hole
+1	Kyle Smith
+7/8/2007
+Result: 3-4 Loss vs. Scrambled Leggs
+1	Ian Williams
+1	Keegan Burmark
+1	Kyle Smith
+7/14/2007
+Result: 0-1 Loss vs. Knuckle Draggers FC
+7/21/2007
+Result: 1-3 Loss vs. Shaken & Stirred
+7/28/2007
+Result: 7-1 Win vs. Dig Your Own Hole
+8/4/2007
+Result: 5-3 Win vs. Scrambled Leggs
+4	Kyle Smith
+1	Ian Williams
+8/11/2007
+Result: 3-6 Loss vs. Li'l Smokies
+8/18/2007
+Result: 1-0 Win vs. Knuckle Draggers FC
+8/25/2007
+Result: 2-0 Win vs. Shaken & Stirred
+
+-- Fall 2007
+9/22/2007
+Result: 2-1 Win vs. Dig Your Own Hole
+9/29/2007
+Result: 2-1 Win vs. Crush
+10/6/2007
+Result: 1-1 Draw vs. Knuckle Draggers FC
+10/13/2007
+Result: 4-1 Win vs. Li'l Smokies
+10/20/2007
+Result: 5-1 Win vs. Hot Wings
+10/27/2007
+Result: 3-1 Win vs. Dig Your Own Hole
+11/3/2007
+Result: 0-0 Draw vs. Crush
+11/10/2007
+Result: 0-1 Loss vs. Knuckle Draggers FC
+11/17/2007
+Result: 4-2 Win vs. Li'l Smokies
+12/1/2007
+Result: 1-1 Draw vs. Hot Wings
+12/8/2007
+Result: 6-1 Win vs. Dig Your Own Hole
+
+-- Winter 2008
+1/6/2008
+Result: 1-2 Loss vs. Sup Sun Soc
+1/12/2008
+Result: 1-0 Win vs. Scrambled Leggs
+1/19/2008
+Result: 1-2 Loss vs. Magic Hat
+1/26/2008
+Result: 1-2 Loss vs. Swamp Donkeys
+2/2/2008
+Result: 2-2 Draw vs. Culo FC
+2/9/2008
+Result: 0-1 Loss vs. Sup Sun Soc
+2/16/2008
+Result: 2-3 Loss vs. Scrambled Leggs
+2/23/2008
+Result: 0-2 Loss vs. Magic Hat
+3/2/2008
+Result: 0-4 Loss vs. Swamp Donkeys
+3/9/2008
+Result: 3-3 Draw vs. Culo FC
+
+-- Spring 2008
+3/30/2008
+Result: 3-1 Win vs. L'il Smokies
+4/5/2008
+Result: 5-2 Win vs. Winner Buys Beer
+4/12/2008
+Result: 5-4 Win vs. Knuckle Draggers FC
+4/19/2008
+Result: 5-5 Draw vs. Culo FC
+4/26/2008
+Result: 3-4 Loss vs. Swamp Donkeys
+5/3/2008
+Result: 5-2 Win vs. Li'l Smokies
+5/10/2008
+Result: 4-1 Win vs. Winner Buys Beer
+5/17/2008
+Result: 3-3 Draw vs. Knuckle Draggers FC
+5/31/2008
+Result: 7-3 Win vs Culo FC
+6/8/2008
+Result: 1-3 Loss vs. Swamp Donkeys
+
+-- Fall 2008
+9/13/2008
+Result: 2-5 Loss vs. FC World United
+1	Craig Swenson
+1	Ryan Bullock
+9/20/2008
+Result: 0-2 Loss vs. Swamp Donkeys
+9/27/2008
+Result: 4-0 Win vs. Dora Dora FC
+2	Craig Swenson
+1	Claire Reinart
+1	Ed Pham
+10/4/2008
+Result: 1-3 Loss vs. Diesel
+1	Mark Pearson
+10/11/2008
+Result: 4-2 Win vs. Scrambled Leggs
+1	Craig Swenson
+2	Mark Pearson
+1	Kayla Wilson
+10/18/2008
+Result: 1-1 Draw vs. FC World United
+1	Mark Pearson
+10/25/2008
+Result: 0-3 Loss vs. Swamp Donkeys
+11/1/2008
+Result: 5-3 Win vs. Dora Dora FC
+1	Craig Swenson
+1	Ed Pham
+2	Mark Pearson
+1	Kayla Wilson
+11/8/2008
+Result: 0-4 Loss vs. Diesel
+11/15/2008
+Result: 2-3 Loss vs. Scrambled Leggs
+2	Craig Swenson
+
+-- Winter 2009
+1/3/2009
+Result: 8-1 Win vs. Los Diablitos
+2	Craig Swenson
+1	Ryan Bullock
+2	Monica Nelson
+2	Taryn Tomlinson
+1	Mark Pearson
+1/10/2009
+Result: 6-0 Win vs. Good People
+1	Craig Swenson
+3	Taryn Tomlinson
+2	Mark Pearson
+1/17/2009
+Result: 5-1 Win vs. Fat Tire United
+1	Mark Pearson
+3	Collin Hauskins
+1	Libby Kimmett
+1/24/2009
+Result: 5-1 Win vs. Mavericks
+2	Craig Swenson
+1	Monica Nelson
+1	Mark Pearson
+1	Alicia Hardman
+1/31/2009
+Result: 9-0 Win vs. Dig Your Own Hole
+1	Craig Swenson
+1	Monica Nelson
+3	Mark Pearson
+1	Libby Kimmett
+2	Kayla Wilson
+1	Ed Pham
+2/7/2009
+Result: 4-1 Win vs. Los Diablitos
+1	Ryan Bullock
+1	Taryn Tomlinson
+1	Mark Pearson
+1	Alicia Hardman
+2/14/2009
+Result: 2-0 Win vs. Good People
+2	Mark Pearson
+2/21/2009
+Result: 9-1 Win vs. Fat Tire United
+1	Craig Swenson
+2	Ryan Bullock
+1	Monica Nelson
+1	Mark Pearson
+1	Kayla Wilson
+1	Amanda Hudak
+1	Steve Weller
+1	John Feltner
+2/28/2009
+Result: 4-0 Win vs. Mavericks
+3	Craig Swenson
+1	Mark Pearson
+3/7/2009
+Result: 2-1 Win vs. Dig Your Own Hole
+1	Mark Pearson
+1	Kayla Wilson
+3/14/2009
+Result: 2-1 Win vs. Dig Your Own Hole
+1	Craig Swenson
+1	Taryn Tomlinson
+
+-- Spring 2009
+3/21/2009
+Result: 2-1 Win vs. Diesel
+1	Kayla Wilson
+4/4/2009
+Result: 3-3 Draw vs. Scrambled Leggs
+1	Jared Demeerleer
+1	Tony Quickel
+1	Armando Romo
+4/11/2009
+Result: 6-0 Win vs. Fabulous Underdogs
+1	Jared Demeerleer
+3	Ryan Bullock
+1	Ken Tsutsui
+1	Ben Dyer
+4/18/2009
+Result: 4-0 Win vs. Dora Dora FC
+2	Ed Pham
+1	Marianne Bricker
+1	Steve Weller
+4/25/2009
+Result: 1-3 Loss vs. Culo and the Gang
+1	Kayla Wilson
+5/2/2009
+Result: 1-1 Draw vs. Diesel
+1	Mark Pearson
+5/9/2009
+Result: 3-4 Loss vs. Culo and the Gang
+2	Ryan Bullock
+1	John Feltner
+5/16/2009
+Result: 0-4 Loss vs. Scrambled Leggs
+5/30/2009
+Result: 3-1 Win vs. Scrambled Leggs
+1	Ryan Bullock
+1	Craig Swenson
+6/6/2009
+Result: 9-0 Win vs. Dora Dora FC
+1	Kayla Wilson
+1	Ryan Bullock
+1	Ben Dyer
+1	Ed Pham
+2	Mark Pearson
+1	John Feltner
+1	Craig Swenson
+1	Claire Reinart
+
+-- Summer 2009
+6/20/2009
+Result: 1-5 Loss vs. Diesel
+1	John Feltner
+6/27/2009
+Result: 3-4 Loss vs. Alien Abductors
+1	Craig Swenson
+1	Sarah Levinson
+1	Ian Williams
+7/11/2009
+Result: 7-3 Win vs. Swamp Donkeys
+6	Ian Williams
+1	Kyle Smith
+7/18/2009
+Result: 0-3 Loss vs. FC World United
+7/25/2009
+Result: 5-0 Win vs. Fabulous Underdogs
+1	Kyle Smith
+3	Mark Pearson
+1	Jaison Smith
+8/1/2009
+Result: 0-4 Loss vs. Diesel
+8/8/2009
+Result: 0-3 Loss vs. Alien Abductors
+8/15/2009
+Result: 3-0 Win vs. Swamp Donkeys
+8/22/2009
+Result: 0-3 Loss vs. FC World United
+8/29/2009
+Result: 2-3 Loss vs. Fabulous Underdogs
+
+-- Fall 2009
+9/20/2009
+Result: 5-4 Win vs. Swamp Donkeys
+4	Mark Pearson
+1	Mike Witt
+9/26/2009
+Result: 3-1 Win vs. Wizards
+1	Sarah Levinson
+1	Eric Moe
+10/3/2009
+Result: 4-4 Draw vs. Magic Hat
+2	Mark Pearson
+2	Sarah Levinson
+10/10/2009
+Result: 3-6 Loss vs. Dora Dora FC
+2	Ryan Bullock
+1	Katie Oakley
+10/17/2009
+Result: 6-0 Win vs. Team Osmosis
+1	Collin Hauskins
+2	Mark Pearson
+1	Ryan Bullock
+1	Jay Moore
+1	Mike Witt
+10/31/2009
+Result: 3-0 Win vs. Wizards
+11/7/2009
+Result: 1-3 Loss vs. Magic Hat
+1	Mark Pearson
+11/14/2009
+Result: 5-2 Win vs. Dora Dora FC
+2	Mark Pearson
+1	Jay Moore
+2	Claire Reinart
+11/21/2009
+Result: 6-2 Win vs. Team Osmosis
+3	Ryan Bullock
+1	Abi Maycock
+1	Eric Moe
+12/5/2009
+Result: 7-1 Win vs. Swamp Donkeys
+4	Mark Pearson
+1	Ryan Bullock
+1	Sarah Levinson
+1	Angelio Serenil
+
+-- Winter 2010
+1/9/2010
+Result: 2-5 Loss vs. Culo and the Gang
+1	Jay Moore
+1	Abi Maycock
+1/16/2010
+Result: 0-0 Draw vs. 22 Left Feet
+1/23/2010
+Result: 1-1 Draw vs. Real Tired
+1	Mark Pearson
+1/30/2010
+Result: 4-0 Win vs. Magic Hat
+2	Mark Pearson
+1	Jay Moore
+1	Donald Bressler
+2/6/2010
+Result: 2-2 Draw vs. FC World United
+1	Mark Pearson
+1	Armando Romo
+2/13/2010
+Result: 4-4 Draw vs. Culo and the Gang
+1	Jay Moore
+1	Mark Pearson
+1	Brendan Morley
+1	Abi Maycock
+2/20/2010
+Result: 0-5 Loss vs. 22 Left Feet
+2/27/2010
+Result: 2-1 Win vs. Magic Hat
+2	Mark Pearson
+3/6/2010
+Result: 0-2 Loss vs. FC World United
+3/13/2010
+Result: 1-7 Loss vs. Magic Hat
+1	Ryan Bullock
+
+-- Spring 2010
+3/27/2010
+Result: 0-6 Loss vs. RX$
+4/3/2010
+Result: 5-0 Win vs. Wizards
+2	Mark Pearson
+1	Sarah Levinson
+2	Nicholas Wong
+4/10/2010
+Result: 0-2 Loss vs. Magic Hat
+4/17/2010
+Result: 3-3 Draw vs. Dora Dora FC
+1	Ryan Bullock
+1	Steve Weller
+5/1/2010
+Result: 4-7 Loss vs. Swamp Donkeys
+2	Mark Pearson
+1	Jeff Nissen
+1	Nicholas Wong
+5/8/2010
+Result: 1-9 Loss vs. RX$
+1	Sarah Levinson
+5/15/2010
+Result: 4-1 Win vs. Wizards
+2	Mark Pearson
+1	Sarah Levinson
+1	Nicholas Wong
+5/22/2010
+Result: 0-6 Loss vs. Magic Hat
+6/5/2010
+Result: 3-4 Loss vs. Dora Dora FC
+1	Steve Weller
+2	Ryan Bullock
+6/12/2010
+Result: 3-0 Win vs. Swamp Donkeys
+
+-- Fall 2010
+9/19/2010
+Result: 1-6 Loss vs. Real Dragginz United FC
+1	Felix Espana
+9/26/2010
+Result: 0-4 Loss vs. Monsters of Rock
+10/3/2010
+Result: 2-2 Draw vs. Mr. Snappy
+1	Kyle Muir
+1	Sarah Levinson
+10/10/2010
+Result: 2-3 Loss vs. Rochambeau
+1	Ed Pham
+1	Mark Root-Wiley
+10/17/2010
+Result: 0-5 Loss vs. Chicken Dinner
+10/24/2010
+Result: 0-3 Loss vs. Monsters of Rock
+10/31/2010
+Result: 4-1 Win vs. Real Dragginz United FC
+1	Kyle Muir
+2	Jenn Loo
+1	Todd Severson
+11/7/2010
+Result: 5-4 Win vs. Mr. Snappy
+1	Kyle Muir
+1	Felix Espana
+1	Todd Severson
+2	Jeff Nissen
+11/14/2010
+Result: 3-3 Draw vs. Rochambeau
+1	Kyle Muir
+1	Todd Severson
+1	Jeff Nissen
+11/21/2010
+Result: 3-2 Win vs. Chicken Dinner
+1	Ben Johnson
+1	Kyle Muir
+1	Ken Tsutsui
+
+-- Winter 2011
+1/9/2011
+Result: 1-1 Draw vs. FC Blue Mojo
+1	Todd Severson
+1/16/2011
+Result: 5-0 Win vs. Goonies
+3	Kyle Muir
+1	Todd Severson
+1	Jared Demeerleer
+1/23/2011
+Result: 1-0 Win vs. Carpet Sharks
+1	Ed Pham
+1/30/2011
+Result: 4-0 Win vs. Mr. Snappy
+2	Todd Severson
+1	Sarah Levinson
+2/13/2011
+Result: 4-0 Win vs. Snakes of the Universe
+1	Jeff Nissen
+2	Ben Johnson
+1	Sarah Levinson
+2/20/2011
+Result: 12-2 Win vs. Grasskickers
+2	Todd Severson
+2	Jenn Loo
+1	Kyle Muir
+1	Steve Weller
+3	Mark Root-Wiley
+1	Sarah Levinson
+1	Amy Monsen
+1	Diana Riggs
+2/27/2011
+Result: 5-2 Win vs. Vikings
+1	Ben Johnson
+2	Todd Severson
+1	Jenn Loo
+3/13/2011
+Result: 5-0 Win vs. Crazy Monkey Attack
+2	Todd Severson
+3	Kyle Muir
+3/20/2011
+Result: 0-1 Loss vs. Monsters of Rock
+3/27/2011
+Result: 4-1 Win vs. FC Tarof
+2	Kyle Muir
+1	Mark Root-Wiley
+1	Haylee Morse-Miller
+
+-- Spring 2011
+4/3/2011
+Result: 1-1 Draw vs. Mr. Snappy
+1	Ian Williams
+4/10/2011
+Result: 2-3 Loss vs. Rochambeau
+1	Todd Severson
+1	Jeff Nissen
+4/17/2011
+Result: 0-1 Loss vs. Los Bichos
+5/1/2011
+Result: 3-6 Loss vs. Chicken Dinner
+1	Ian Williams
+1	Todd Severson
+1	Kyle Muir
+5/8/2011
+Result: 0-4 Loss vs. Monsters of Rock
+5/15/2011
+Result: 6-2 Win vs. Mr. Snappy
+2	Todd Severson
+2	Kyle Muir
+1	Sarah Levinson
+1	Michael Anthony
+5/22/2011
+Result: 1-7 Loss vs. Monsters of Rock
+1	Jeff Nissen
+6/5/2011
+Result: 2-3 Loss vs. Los Bichos
+2	Todd Severson
+6/12/2011
+Result: 3-3 Draw vs. Rochambeau
+6/19/2011
+Result: 1-7 Loss vs. Chicken Dinner

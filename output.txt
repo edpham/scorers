@@ -1,0 +1,66 @@
+All Time Scorers
+================
+137 	Scott Anderson
+28 	Amy Hasson
+23 	Jeff Richards
+22 	Mark Lee
+22 	Mike Certo
+12 	Jackie Unger
+11 	Ben Johnson
+8 	Kathryn Bluher
+8 	Kyle Smith
+7 	David Ghanaie
+7 	Gamachu Said
+7 	Rick Chen
+6 	Mohammad Zbeeb
+5 	Adrienne Oda
+5 	Cody Silva
+5 	Donald Bressler
+5 	Melissa Pellman
+4 	Andrew Collord
+3 	Ian Williams
+3 	Ike Nwaneshiudu
+3 	Irene Kendig
+3 	Jen Onaga
+3 	Tyler Dixon
+2 	Claire Reinart
+2 	Esteban Gamboa
+2 	Jacob Wegner
+2 	Josh Allen
+2 	Rosie Jaye
+1 	David Ghaniae
+1 	Elin Blinck
+1 	Erin Aten
+1 	Greg Wenges
+1 	Holly Yort
+1 	Jenn Loo
+1 	Kelsey Harms
+1 	Lauren Sato
+1 	Matt Marteni
+1 	Steven Lattin
+
+All Time Records
+================
+8-0-0 	[35, 0, 35] 		FC Tarof
+8-3-0 	[32, 18, 14] 		Real Dragginz United FC
+6-3-4 	[36, 28, 8] 		The Usual Suspects
+6-0-0 	[23, 5, 18] 		Big Muddy
+5-0-0 	[22, 1, 21] 		Carpet Sharks
+4-8-3 	[33, 36, -3] 		Rochambeau
+4-1-1 	[28, 15, 13] 		Los Bichos
+3-0-0 	[18, 1, 17] 		Goonies
+3-0-0 	[20, 2, 18] 		Grasskickers
+3-0-0 	[26, 3, 23] 		Vikings
+3-1-0 	[8, 5, 3] 		Chicken Dinner
+2-0-2 	[15, 3, 12] 		Lounge Iguana
+2-0-2 	[9, 7, 2] 		Monsters of Rock
+2-0-0 	[8, 2, 6] 		Cleats
+1-0-0 	[6, 0, 6] 		ECS FC Coed Team
+1-0-0 	[7, 1, 6] 		Empty Growlers
+1-0-0 	[8, 0, 8] 		FC Blue Mojo
+1-0-0 	[5, 0, 5] 		Matt Damon
+1-0-0 	[3, 0, 3] 		Ridiculous FC
+1-0-0 	[8, 2, 6] 		Toot It and Boot It
+1-2-0 	[9, 6, 3] 		Cheetos
+Overall record: 66-18-12
+Overall goal differential: 359-135-224
