@@ -75,11 +75,15 @@ class opponent:
    
    # addGame()
    # Adds the game that the team has played that opponent and the result.
-   def addGame(self, date, result):
-      if date not in self.games:
+   def addGame(self, date, result, season):
+      if season not in self.games:
+         self.games[season] = {}
+      current = self.games[season]
+      if date not in current:
          score = result[0].split("-")
          score.append(result[1])
-         self.games[date] = score
+         current[date] = score
+         self.games[season] = current
       else:
          print "There is already a game against " + self.name + " for " + date
    
@@ -87,19 +91,40 @@ class opponent:
    # Get the list of games that they've played (in dict form)
    def getGames(self):
       return self.games
-      
+   
+   def getSeasons(self):
+      return self.games.keys()
+
+   def getSeasonRecord(self, season):
+      if season in self.games:
+         record = [0, 0, 0]
+         currentSeason = self.games[season]
+         for game in currentSeason:
+            result = currentSeason[game][2].lower()
+            if result == "win":
+               record[0] = record[0] + 1
+            elif result == "loss":
+               record[1] = record[1] + 1
+            else:
+               record[2] = record[2] + 1
+         return record
+      else:
+         return None
+
    # calculateRecord()
    def calculateRecord(self):
       games = self.getGames()
       record = [0, 0, 0]
-      for game in games:
-         current = games[game]
-         if current[2].lower() == "win":
-            record[0] = record[0] + 1
-         elif current[2].lower() == "loss":
-            record[1] = record[1] + 1
-         else:
-            record[2] = record[2] + 1
+      for season in games:
+         currentSeason = games[season]
+         for game in currentSeason:
+            current = currentSeason[game]
+            if current[2].lower() == "win":
+               record[0] = record[0] + 1
+            elif current[2].lower() == "loss":
+               record[1] = record[1] + 1
+            else:
+               record[2] = record[2] + 1
       
       return record
    
@@ -107,10 +132,12 @@ class opponent:
    def calculateGD(self):
       games = self.getGames()
       gd = [0, 0, 0]
-      for game in games:
-         current = games[game]
-         gd[0] = gd[0] + int(current[0])
-         gd[1] = gd[1] + int(current[1])
+      for season in games:
+         currentSeason = games[season]
+         for game in currentSeason:
+            score = currentSeason[game]
+            gd[0] = gd[0] + int(score[0])
+            gd[1] = gd[1] + int(score[1])
       gd[2] = gd[0] - gd[1]
       return gd
       
@@ -124,10 +151,11 @@ def main(argv):
    allOpponents = processOpponents(games)
    
    allTimeScorers(allScorers)
+   goalsPerSeason(allScorers, allSeasons)
    allTimeRecords(allOpponents)
+   recordPerSeason(allOpponents, allSeasons)
    totalRecord(allOpponents)
    totalGoals(allOpponents)
-   goalsPerSeason(allScorers, allSeasons)
 
 # readFile()
 # Reads the scorers.txt file      
@@ -187,7 +215,8 @@ def processScorer(goals, scorer, results, season, date):
    indiv.addGame(season, date, goals)
    results[scorer] = indiv
    return results
-   
+
+# processOpponents()
 def processOpponents(data):
    opponents = {}
    for line in data:
@@ -195,10 +224,22 @@ def processOpponents(data):
       if opp not in opponents:
          opponents[opp] = opponent(opp)
       team = opponents[opp]
-      team.addGame(line[1], line[2][0:2])
+      team.addGame(line[1], line[2][0:2], line[0])
       opponents[opp] = team
-      
+         
    return opponents
+
+# goalsPerSeason()   
+def goalsPerSeason(scorers, seasons):
+   for season in seasons:
+      currentSeason = []
+      for scorer in scorers:
+         total = scorers[scorer].getSeasonGoalsTotal(season)
+         if total > 0: currentSeason.append((total, scorer))
+      currentSeason = sorted(currentSeason, key = lambda x: (-x[0], x[1]))
+      print season, "\n================="
+      for player in currentSeason: print str(player[0]) + "\t" + player[1]
+      print
 
 # allTimeScorers()
 # Processes and outputs the all time scorers for the team.
@@ -211,7 +252,9 @@ def allTimeScorers(scorers):
    print "All Time Scorers"
    print "================"
    for player in allTime: print player[0], '\t', player[1]
-   
+
+# allTimeRecords()
+# Processes the all-time records against each opponent   
 def allTimeRecords(opponents):
    allTime = []
    for opp in opponents:
@@ -222,16 +265,35 @@ def allTimeRecords(opponents):
    print "\nAll Time Records"
    print "================"
    allTime = sorted(allTime, key = lambda x: (-x[1], -x[2], -x[4], x[3], x[0]))
-   for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[5], '\t\t', opp[0]
+   for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[5], '\t', opp[0]
+
+def recordPerSeason(opponents, seasons):
+   allSeasons = []
+   for season in seasons:
+      record = [0, 0, 0]
+      for opp in opponents:
+         currentSeason = opponents[opp].getSeasonRecord(season)
+         if currentSeason != None:
+            record[0] = currentSeason[0] + record[0]
+            record[1] = currentSeason[1] + record[1]
+            record[2] = currentSeason[2] + record[2]
+      allSeasons.append((season, "-".join([str(x) for x in record])))
    
+   print "\nRecords For Each Season"
+   print "========================="
+   for season in allSeasons:
+      print season[1] + "\t" + season[0]
+
+# totalRecord()   
 def totalRecord(opponents):
    total = [0, 0, 0]
    for opp in opponents:
       record = opponents[opp].calculateRecord()
       for x in range(3):
          total[x] = total[x] + record[x]
-   print "Overall record:", "-".join([str(x) for x in total])
-   
+   print "\nOverall record:", "-".join([str(x) for x in total])
+
+# totalGoals()   
 def totalGoals(opponents):
    total = [0, 0, 0]
    for opp in opponents:
@@ -239,17 +301,6 @@ def totalGoals(opponents):
       for x in range(3):
          total[x] = total[x] + goals[x]
    print "Overall goal differential:", "-".join([str(x) for x in total]) + "\n"
-
-def goalsPerSeason(scorers, seasons):
-   for season in seasons:
-      currentSeason = []
-      for scorer in scorers:
-         total = scorers[scorer].getSeasonGoalsTotal(season)
-         if total > 0: currentSeason.append((total, scorer))
-      currentSeason = sorted(currentSeason, key = lambda x: (-x[0], x[1]))
-      print season, "\n================="
-      for player in currentSeason: print str(player[0]) + "\t" + player[1]
-      print
 
 # ============ 
 # Main method

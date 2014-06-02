@@ -37,33 +37,6 @@ All Time Scorers
 1 	Lauren Sato
 1 	Matt Marteni
 1 	Steven Lattin
-
-All Time Records
-================
-9-3-0 	[40, 21, 19] 		Real Dragginz United FC
-8-0-0 	[35, 0, 35] 		FC Tarof
-6-3-4 	[36, 28, 8] 		The Usual Suspects
-6-0-0 	[23, 5, 18] 		Big Muddy
-5-0-0 	[22, 1, 21] 		Carpet Sharks
-4-8-3 	[33, 36, -3] 		Rochambeau
-4-1-1 	[28, 15, 13] 		Los Bichos
-3-0-0 	[18, 1, 17] 		Goonies
-3-0-0 	[20, 2, 18] 		Grasskickers
-3-0-0 	[26, 3, 23] 		Vikings
-3-1-0 	[8, 5, 3] 		Chicken Dinner
-2-0-2 	[15, 3, 12] 		Lounge Iguana
-2-0-2 	[9, 7, 2] 		Monsters of Rock
-2-0-0 	[8, 2, 6] 		Cleats
-1-0-0 	[6, 0, 6] 		ECS FC Coed Team
-1-0-0 	[7, 1, 6] 		Empty Growlers
-1-0-0 	[8, 0, 8] 		FC Blue Mojo
-1-0-0 	[5, 0, 5] 		Matt Damon
-1-0-0 	[3, 0, 3] 		Ridiculous FC
-1-0-0 	[8, 2, 6] 		Toot It and Boot It
-1-2-0 	[9, 6, 3] 		Cheetos
-Overall record: 67-18-12
-Overall goal differential: 367-138-229
-
 Fall 2011 
 =================
 18	Scott Anderson
@@ -205,4 +178,46 @@ Spring 2014
 5	Scott Anderson
 1	Adrienne Oda
 1	Jen Onaga
+
+
+All Time Records
+================
+9-3-0 	[40, 21, 19] 	Real Dragginz United FC
+8-0-0 	[35, 0, 35] 	FC Tarof
+6-3-4 	[36, 28, 8] 	The Usual Suspects
+6-0-0 	[23, 5, 18] 	Big Muddy
+5-0-0 	[22, 1, 21] 	Carpet Sharks
+4-8-3 	[33, 36, -3] 	Rochambeau
+4-1-1 	[28, 15, 13] 	Los Bichos
+3-0-0 	[18, 1, 17] 	Goonies
+3-0-0 	[20, 2, 18] 	Grasskickers
+3-0-0 	[26, 3, 23] 	Vikings
+3-1-0 	[8, 5, 3] 	Chicken Dinner
+2-0-2 	[15, 3, 12] 	Lounge Iguana
+2-0-2 	[9, 7, 2] 	Monsters of Rock
+2-0-0 	[8, 2, 6] 	Cleats
+1-0-0 	[6, 0, 6] 	ECS FC Coed Team
+1-0-0 	[7, 1, 6] 	Empty Growlers
+1-0-0 	[8, 0, 8] 	FC Blue Mojo
+1-0-0 	[5, 0, 5] 	Matt Damon
+1-0-0 	[3, 0, 3] 	Ridiculous FC
+1-0-0 	[8, 2, 6] 	Toot It and Boot It
+1-2-0 	[9, 6, 3] 	Cheetos
+
+Records For Each Season
+=========================
+4-4-2	Fall 2011
+8-0-2	Winter 2012
+5-1-3	Spring 2012
+5-2-1	Summer 2012
+8-0-2	Fall 2012
+9-1-0	Winter 2013
+5-4-0	Spring 2013
+3-2-0	Summer 2013
+5-3-1	Fall 2013
+11-0-0	Winter 2014
+4-1-1	Spring 2014
+
+Overall record: 67-18-12
+Overall goal differential: 367-138-229
 
