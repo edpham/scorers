@@ -118,6 +118,17 @@ class opponent:
 # Methods
 # =========
 
+def main(argv):
+   scorers, games = readFile(argv)
+   allScorers, allSeasons = processPlayers(scorers)
+   allOpponents = processOpponents(games)
+   
+   allTimeScorers(allScorers)
+   allTimeRecords(allOpponents)
+   totalRecord(allOpponents)
+   totalGoals(allOpponents)
+   goalsPerSeason(allScorers, allSeasons)
+
 # readFile()
 # Reads the scorers.txt file      
 def readFile(argv):
@@ -244,12 +255,4 @@ def goalsPerSeason(scorers, seasons):
 # Main method
 # ============
 if __name__ == "__main__":
-   scorers, games = readFile(sys.argv)
-   allScorers, allSeasons = processPlayers(scorers)
-   allOpponents = processOpponents(games)
-   
-   allTimeScorers(allScorers)
-   allTimeRecords(allOpponents)
-   totalRecord(allOpponents)
-   totalGoals(allOpponents)
-   goalsPerSeason(allScorers, allSeasons)
+   main(sys.argv)
