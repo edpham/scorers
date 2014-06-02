@@ -88,7 +88,7 @@ class opponent:
          print "There is already a game against " + self.name + " for " + date
    
    # getGames()
-   # Get the list of games that they've played (in dict form)
+   # Get the of seasons that they've played (in dict form)
    def getGames(self):
       return self.games
    
@@ -152,6 +152,7 @@ def main(argv):
    
    allTimeScorers(allScorers)
    goalsPerSeason(allScorers, allSeasons)
+   goalsInAGame(allScorers)
    allTimeRecords(allOpponents)
    recordPerSeason(allOpponents, allSeasons)
    totalRecord(allOpponents)
@@ -241,6 +242,17 @@ def goalsPerSeason(scorers, seasons):
       for player in currentSeason: print str(player[0]) + "\t" + player[1]
       print
 
+# goalsInAGame()
+def goalsInAGame(scorers):
+   totals = []
+   for scorer in scorers:
+      goals = scorers[scorer].getMostGoalsInGame()
+      totals.append((goals, scorer))
+   
+   totals = sorted(totals, key = lambda x: (-int(x[0]), x[1]))
+   for total in totals: print total[0], "\t", total[1]
+      
+
 # allTimeScorers()
 # Processes and outputs the all time scorers for the team.
 def allTimeScorers(scorers):
@@ -251,7 +263,12 @@ def allTimeScorers(scorers):
    
    print "All Time Scorers"
    print "================"
-   for player in allTime: print player[0], '\t', player[1]
+   for player in allTime: 
+      if player[0] > 100:
+         print player[0], '\t', player[1]
+      else:
+         print player[0], '\t\t', player[1]
+   print
 
 # allTimeRecords()
 # Processes the all-time records against each opponent   
@@ -267,6 +284,7 @@ def allTimeRecords(opponents):
    allTime = sorted(allTime, key = lambda x: (-x[1], -x[2], -x[4], x[3], x[0]))
    for opp in allTime: print "-".join([str(x) for x in opp[2:5]]), '\t', opp[5], '\t', opp[0]
 
+# recordPerSeason()
 def recordPerSeason(opponents, seasons):
    allSeasons = []
    for season in seasons:
@@ -274,9 +292,7 @@ def recordPerSeason(opponents, seasons):
       for opp in opponents:
          currentSeason = opponents[opp].getSeasonRecord(season)
          if currentSeason != None:
-            record[0] = currentSeason[0] + record[0]
-            record[1] = currentSeason[1] + record[1]
-            record[2] = currentSeason[2] + record[2]
+            for x in range(len(record)): record[x] = currentSeason[x] + record[x]
       allSeasons.append((season, "-".join([str(x) for x in record])))
    
    print "\nRecords For Each Season"
@@ -289,7 +305,7 @@ def totalRecord(opponents):
    total = [0, 0, 0]
    for opp in opponents:
       record = opponents[opp].calculateRecord()
-      for x in range(3):
+      for x in range(len(total)):
          total[x] = total[x] + record[x]
    print "\nOverall record:", "-".join([str(x) for x in total])
 
