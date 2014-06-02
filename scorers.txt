@@ -122,7 +122,7 @@ Result: 5-1 Win vs. Real Dragginz United FC
 6/10/2012
 Result: 2-2 Draw vs. Monsters of Rock
 1	Mike Certo
-1	David Ghaniae
+1	David Ghanaie
 6/17/2012
 Result: 2-1 Win vs. Chicken Dinner
 2	Donald Bressler
@@ -461,3 +461,9 @@ Result: 6-1 Win vs. Los Bichos
 Result: 3-3 Draw vs. Rochambeau
 2	Jeff Richards
 1	Mark Lee
+6/1/2014
+Result: 8-3 Win vs. Real Dragginz United FC
+4	Amy Hasson
+1	Mark Lee
+2	Scott Anderson
+1	Rick Chen

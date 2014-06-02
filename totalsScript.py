@@ -152,6 +152,7 @@ def readFile(argv):
 # Processes the data that was extracted from the scorers.txt file
 def processPlayers(data):
    results = {}
+   seasons = []
    season = ""
    date = ""
    
@@ -160,10 +161,11 @@ def processPlayers(data):
          date = line
       elif type(line) is str:
          season = line
+         seasons.append(line)
       else:
          results = processScorer(line[0], line[1], results, season, date)
          
-   return results
+   return results, seasons
 
 # processScorer()
 # Processes the data that comes with the scorer (goals, season, date)
@@ -225,17 +227,29 @@ def totalGoals(opponents):
       goals = opponents[opp].calculateGD()
       for x in range(3):
          total[x] = total[x] + goals[x]
-   print "Overall goal differential:", "-".join([str(x) for x in total])
+   print "Overall goal differential:", "-".join([str(x) for x in total]) + "\n"
+
+def goalsPerSeason(scorers, seasons):
+   for season in seasons:
+      currentSeason = []
+      for scorer in scorers:
+         total = scorers[scorer].getSeasonGoalsTotal(season)
+         if total > 0: currentSeason.append((total, scorer))
+      currentSeason = sorted(currentSeason, key = lambda x: (-x[0], x[1]))
+      print season, "\n================="
+      for player in currentSeason: print str(player[0]) + "\t" + player[1]
+      print
 
 # ============ 
 # Main method
 # ============
 if __name__ == "__main__":
    scorers, games = readFile(sys.argv)
-   allScorers = processPlayers(scorers)
+   allScorers, allSeasons = processPlayers(scorers)
    allOpponents = processOpponents(games)
    
    allTimeScorers(allScorers)
    allTimeRecords(allOpponents)
    totalRecord(allOpponents)
    totalGoals(allOpponents)
+   goalsPerSeason(allScorers, allSeasons)
