@@ -250,6 +250,8 @@ def goalsInAGame(scorers):
       totals.append((goals, scorer))
    
    totals = sorted(totals, key = lambda x: (-int(x[0]), x[1]))
+   print "Most Goals in a Single Game"
+   print "==========================="
    for total in totals: print total[0], "\t", total[1]
       
 
