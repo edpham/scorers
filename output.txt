@@ -1,9 +1,9 @@
 All Time Scorers
 ================
-139 	Scott Anderson
+141 	Scott Anderson
 32 		Amy Hasson
+24 		Mark Lee
 23 		Jeff Richards
-23 		Mark Lee
 22 		Mike Certo
 12 		Jackie Unger
 11 		Ben Johnson
@@ -12,8 +12,8 @@ All Time Scorers
 8 		Kyle Smith
 8 		Rick Chen
 7 		Gamachu Said
+6 		Adrienne Oda
 6 		Mohammad Zbeeb
-5 		Adrienne Oda
 5 		Cody Silva
 5 		Donald Bressler
 5 		Melissa Pellman
@@ -173,11 +173,11 @@ Winter 2014
 Spring 2014 
 =================
 7	Rick Chen
+7	Scott Anderson
+6	Mark Lee
 5	Amy Hasson
 5	Jeff Richards
-5	Mark Lee
-5	Scott Anderson
-1	Adrienne Oda
+2	Adrienne Oda
 1	Jen Onaga
 
 Most Goals in a Single Game
@@ -223,8 +223,8 @@ Most Goals in a Single Game
 All Time Records
 ================
 9-3-0 	[40, 21, 19] 	Real Dragginz United FC
+7-3-4 	[40, 29, 11] 	The Usual Suspects
 8-0-0 	[35, 0, 35] 	FC Tarof
-6-3-4 	[36, 28, 8] 	The Usual Suspects
 6-0-0 	[23, 5, 18] 	Big Muddy
 5-0-0 	[22, 1, 21] 	Carpet Sharks
 4-8-3 	[33, 36, -3] 	Rochambeau
@@ -256,8 +256,8 @@ Records For Each Season
 3-2-0	Summer 2013
 5-3-1	Fall 2013
 11-0-0	Winter 2014
-4-1-1	Spring 2014
+5-1-1	Spring 2014
 
-Overall record: 67-18-12
-Overall goal differential: 367-138-229
+Overall record: 68-18-12
+Overall goal differential: 371-139-232
 

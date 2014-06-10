@@ -8,7 +8,10 @@ class player:
       self.total = 0
       self.seasons = {}
       self.name = name
-      
+   
+   def __str__(self):
+      return self.name + ": Goals total (" + str(self.total) + ")" + "\n" + str(self.seasons)
+   
    # addGame()
    # Adds the game and their goal amount under the player. Also updates their total.
    def addGame(self, season, date, goals):
@@ -72,6 +75,9 @@ class opponent:
    def __init__(self, name):
       self.name = name
       self.games = {}
+      
+   def __str__(self):
+      return self.name + ": " + str(self.games)
    
    # addGame()
    # Adds the game that the team has played that opponent and the result.
@@ -319,6 +325,7 @@ def totalGoals(opponents):
       for x in range(3):
          total[x] = total[x] + goals[x]
    print "Overall goal differential:", "-".join([str(x) for x in total]) + "\n"
+   
 
 # ============ 
 # Main method
