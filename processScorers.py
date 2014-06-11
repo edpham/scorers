@@ -163,6 +163,7 @@ def processMostGoalsInGame(players):
    print "\nMost Goals in a Game"
    print "--------------------"
    for scorer in allScorers: print "{:3} - {}".format(scorer[0], scorer[1])
+   print
    return None
 
 
@@ -195,7 +196,9 @@ def processAllTimeRecord(opp):
       allTime[0] = allTime[0] + record[0]
       allTime[1] = allTime[1] + record[1]
       allTime[2] = allTime[2] + record[2]
-   print "Overall Record: ", "-".join(str(num) for num in allTime), "(" + str(allTime[0] + allTime[1] + allTime[2]) + ")"
+   totalGames = allTime[0] + allTime[1] + allTime[2]
+   print "Overall Record: ", "-".join(str(num) for num in allTime), "(" + str(totalGames) + " Games Played)",
+   print "({:.4}% Win Pct.)".format(float(allTime[0] * 2 + allTime[2]) / float((totalGames) * 2) * 100)
    return None
 
 
@@ -265,10 +268,9 @@ def main(args):
    print "****** Individual Records ******\n"
    processAllTimeScorers(players)
    processMostGoalsInGame(players)
-   print
    processScorersPerSeason(players)
    
-   print "****** Team Records ******\n"
+   print "****** Team Records ******"
    processAllTimeRecord(opponents)
    processTeamGoals(opponents)
    processRecordsVsTeams(opponents)
