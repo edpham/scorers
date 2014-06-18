@@ -58,6 +58,7 @@ class Opponent:
       self.name = name
       self.record = [0, 0, 0]
       self.games = {}
+      self.seasons = {}
       self.GF = 0
       self.GA = 0
    
@@ -85,6 +86,19 @@ class Opponent:
    def addGame(self, date, gf, ga, result):
       self.games[date] = [gf, ga, result]
    
+   def addSeasonRecord(self, season, result, GF, GA):
+      if season not in self.seasons: self.seasons[season] = [0, 0, 0, 0, 0]
+      record = self.seasons[season]
+      if result.lower() == "win":
+         record[0] = record[0] + 1
+      elif result.lower() == "loss":
+         record[1] = record[1] + 1
+      else:
+         record[2] = record[2] + 1
+      record[3] = GF + record[3]
+      record[4] = GA + record[4]
+      self.seasons[season] = record
+   
    
    def getGoalDiff(self):
       return self.GF - self.GA
@@ -104,6 +118,12 @@ class Opponent:
    
    def getGoalsAgainst(self):
       return self.GA
+   
+   def getSeasons(self):
+      return self.seasons.keys()
+      
+   def getSeasonRecord(self, season):
+      return self.seasons[season]
    
 
 def processData(data, players, opponents):
@@ -138,6 +158,7 @@ def processData(data, players, opponents):
          opponents[opponent].addGF(GF)
          opponents[opponent].addGA(GA)
          opponents[opponent].addGame(date, GF, GA, outcome)
+         opponents[opponent].addSeasonRecord(season, outcome, GF, GA)
       elif len(line) > 2:
          goals = int(line.split()[0])
          name = " ".join(line.split()[1:])
@@ -153,7 +174,7 @@ def processData(data, players, opponents):
 def processAllTimeScorers(players):
    allScorers = sorted([(players[player].getPlayerTotal(), player) for player in players], key=lambda x : (-x[0], x[1]))
    print "All-Time Scorers"
-   print "----------------"
+   print "-------------------------------"
    for scorer in allScorers: print "{:3} - {}".format(scorer[0], scorer[1])
    return None
 
@@ -196,10 +217,11 @@ def processAllTimeRecord(opp):
       allTime[0] = allTime[0] + record[0]
       allTime[1] = allTime[1] + record[1]
       allTime[2] = allTime[2] + record[2]
-   totalGames = allTime[0] + allTime[1] + allTime[2]
-   print "Overall Record: ", "-".join(str(num) for num in allTime), "(" + str(totalGames) + " Games Played)",
-   print "({:.4}% Win Pct.)".format(float(allTime[0] * 2 + allTime[2]) / float((totalGames) * 2) * 100)
-   return None
+   # totalGames = allTime[0] + allTime[1] + allTime[2]
+   # print "\nOverall Record: ", "-".join(str(num) for num in allTime), "(" + str(totalGames) + " Games Played)",
+   # print "({:.4}% Win Pct.)".format(float(allTime[0] * 2 + allTime[2]) / float((totalGames) * 2) * 100)
+   # return None
+   return allTime
 
 
 def processTeamGoals(opp):
@@ -210,23 +232,56 @@ def processTeamGoals(opp):
       GA = opp[team].getGoalsAgainst()
       goalsFor = GF + goalsFor
       goalsAga = GA + goalsAga
-   print "GF:", "{:>4}".format(goalsFor)
-   print "GA:", "{:>4}".format(goalsAga)
-   print "GD:", "{:>+4}".format(goalsFor - goalsAga)
-   print
-   return None
+   # print "GF:", "{:>4}".format(goalsFor)
+   # print "GA:", "{:>4}".format(goalsAga)
+   # print "GD:", "{:>+4}".format(goalsFor - goalsAga)
+   # print
+   # return None
+   return goalsFor, goalsAga
 
+
+def processFinalStats(opp):
+   record = processAllTimeRecord(opp)
+   GF, GA = processTeamGoals(opp)
+   print '--------------------------------------------------------'
+   print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  |  Overall'.format(record[0], record[1], record[2], GF-GA, GF, GA)
 
 def processRecordsVsTeams(opp):
    allTeams = sorted([(opp[team].getRecord(), team) for team in opp], key=lambda x : (-x[0][0], -x[0][2], x[0][1], x[1]))
    print "All-Time Records vs. Teams"
-   print "--------------------------"
+   print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF", "GA", "Team")
+   print "-------------------------------------------------------------"
    for team in allTeams:
       w = team[0][0]
       l = team[0][1]
       d = team[0][2]
-      print '{:>2} - {:>2} - {:>2}  ({:>+#4}) -- {team}'.format(w, l, d, opp[team[1]].getGoalDiff(), team=team[1])
+      print '{:>3} - {:>3} - {:>3}  |  ({:>+#4}) {:>4} {:>4}  |  {team}'.format(w, l, d, opp[team[1]].getGoalDiff(), opp[team[1]].getGoalsFor(), opp[team[1]].getGoalsAgainst(), team=team[1])
    return None
+
+
+def processRecordPerSeason(opponents):
+   seasons = {}
+   for opp in opponents:
+      ssns = opponents[opp].getSeasons()
+      for season in ssns:
+         if season not in seasons: seasons[season] = [0, 0, 0, 0, 0]
+         total = seasons[season]
+         record = opponents[opp].getSeasonRecord(season)
+         total[0] = record[0] + total[0]
+         total[1] = record[1] + total[1]
+         total[2] = record[2] + total[2]
+         total[3] = record[3] + total[3]
+         total[4] = record[4] + total[4]
+         seasons[season] = total
+   
+   listOfSeasons = sortSeasons(seasons.keys())
+   
+   print "\nRecord per Season"
+   print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF", "GA", "Season")
+   print "--------------------------------------------------------"
+   for season in listOfSeasons:
+      record = seasons[season]
+      print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  |  {}'.format(record[0], record[1], record[2], record[3]-record[4], record[3], record[4], season)
 
 
 def sortSeasons(seasons):
@@ -265,16 +320,15 @@ def main(args):
    
    processData(args[1], players, opponents)
    
-   print "****** Individual Records ******\n"
+   print "****** Individual Records ******"
    processAllTimeScorers(players)
    processMostGoalsInGame(players)
    processScorersPerSeason(players)
    
    print "****** Team Records ******"
-   processAllTimeRecord(opponents)
-   processTeamGoals(opponents)
    processRecordsVsTeams(opponents)
-
+   processRecordPerSeason(opponents)
+   processFinalStats(opponents)
 
 if __name__ == "__main__":
    main(sys.argv)

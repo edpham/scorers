@@ -1,11 +1,10 @@
 ****** Individual Records ******
-
 All-Time Scorers
-----------------
-141 - Scott Anderson
+-------------------------------
+144 - Scott Anderson
  32 - Amy Hasson
+ 25 - Jeff Richards
  24 - Mark Lee
- 23 - Jeff Richards
  22 - Mike Certo
  12 - Jackie Unger
  11 - Ben Johnson
@@ -214,40 +213,53 @@ Winter 2014
 
 Spring 2014
 ----------------
+ 10 - Scott Anderson
+  7 - Jeff Richards
   7 - Rick Chen
-  7 - Scott Anderson
   6 - Mark Lee
   5 - Amy Hasson
-  5 - Jeff Richards
   2 - Adrienne Oda
   1 - Jen Onaga
 
 ****** Team Records ******
-Overall Record:  68-18-12 (98 Games Played) (75.51% Win Pct.)
-GF:  371
-GA:  139
-GD: +232
-
 All-Time Records vs. Teams
---------------------------
- 9 -  3 -  0  ( +19) -- Real Dragginz United FC
- 8 -  0 -  0  ( +35) -- FC Tarof
- 7 -  3 -  4  ( +11) -- The Usual Suspects
- 6 -  0 -  0  ( +18) -- Big Muddy
- 5 -  0 -  0  ( +21) -- Carpet Sharks
- 4 -  8 -  3  (  -3) -- Rochambeau
- 4 -  1 -  1  ( +13) -- Los Bichos
- 3 -  0 -  0  ( +17) -- Goonies
- 3 -  0 -  0  ( +18) -- Grasskickers
- 3 -  0 -  0  ( +23) -- Vikings
- 3 -  1 -  0  (  +3) -- Chicken Dinner
- 2 -  0 -  2  ( +12) -- Lounge Iguana
- 2 -  0 -  2  (  +2) -- Monsters of Rock
- 2 -  0 -  0  (  +6) -- Cleats
- 1 -  0 -  0  (  +6) -- ECS FC Coed Team
- 1 -  0 -  0  (  +6) -- Empty Growlers
- 1 -  0 -  0  (  +8) -- FC Blue Mojo
- 1 -  0 -  0  (  +5) -- Matt Damon
- 1 -  0 -  0  (  +3) -- Ridiculous FC
- 1 -  0 -  0  (  +6) -- Toot It and Boot It
- 1 -  2 -  0  (  +3) -- Cheetos
+  W -   L -   D  |  ( GD )   GF   GA  |  Team
+-------------------------------------------------------------
+  9 -   0 -   0  |  ( +39)   40    1  |  FC Tarof
+  9 -   3 -   0  |  ( +19)   40   21  |  Real Dragginz United FC
+  7 -   3 -   4  |  ( +11)   40   29  |  The Usual Suspects
+  6 -   0 -   0  |  ( +18)   23    5  |  Big Muddy
+  5 -   0 -   0  |  ( +21)   22    1  |  Carpet Sharks
+  4 -   8 -   3  |  (  -3)   33   36  |  Rochambeau
+  4 -   1 -   1  |  ( +13)   28   15  |  Los Bichos
+  3 -   0 -   0  |  ( +17)   18    1  |  Goonies
+  3 -   0 -   0  |  ( +18)   20    2  |  Grasskickers
+  3 -   0 -   0  |  ( +23)   26    3  |  Vikings
+  3 -   1 -   0  |  (  +3)    8    5  |  Chicken Dinner
+  2 -   0 -   2  |  ( +12)   15    3  |  Lounge Iguana
+  2 -   0 -   2  |  (  +2)    9    7  |  Monsters of Rock
+  2 -   0 -   0  |  (  +6)    8    2  |  Cleats
+  1 -   0 -   0  |  (  +6)    6    0  |  ECS FC Coed Team
+  1 -   0 -   0  |  (  +6)    7    1  |  Empty Growlers
+  1 -   0 -   0  |  (  +8)    8    0  |  FC Blue Mojo
+  1 -   0 -   0  |  (  +5)    5    0  |  Matt Damon
+  1 -   0 -   0  |  (  +3)    3    0  |  Ridiculous FC
+  1 -   0 -   0  |  (  +6)    8    2  |  Toot It and Boot It
+  1 -   2 -   0  |  (  +3)    9    6  |  Cheetos
+
+Record per Season
+  W -   L -   D  |  ( GD )   GF   GA  |  Season
+--------------------------------------------------------
+  4 -   4 -   2  |  (  +1)   28   27  |  Fall 2011
+  8 -   0 -   2  |  ( +49)   53    4  |  Winter 2012
+  5 -   1 -   3  |  ( +13)   23   10  |  Spring 2012
+  5 -   2 -   1  |  ( +15)   23    8  |  Summer 2012
+  8 -   0 -   2  |  ( +31)   42   11  |  Fall 2012
+  9 -   1 -   0  |  ( +38)   46    8  |  Winter 2013
+  5 -   4 -   0  |  (  +5)   20   15  |  Spring 2013
+  3 -   2 -   0  |  (  +6)   17   11  |  Summer 2013
+  5 -   3 -   1  |  (  +5)   29   24  |  Fall 2013
+ 11 -   0 -   0  |  ( +47)   57   10  |  Winter 2014
+  6 -   1 -   1  |  ( +26)   38   12  |  Spring 2014
+--------------------------------------------------------
+ 69 -  18 -  12  |  (+236)  376  140  |  Overall
