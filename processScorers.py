@@ -246,6 +246,7 @@ def processFinalStats(opp):
    print '--------------------------------------------------------'
    print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  |  Overall'.format(record[0], record[1], record[2], GF-GA, GF, GA)
 
+
 def processRecordsVsTeams(opp):
    allTeams = sorted([(opp[team].getRecord(), team) for team in opp], key=lambda x : (-x[0][0], -x[0][2], x[0][1], x[1]))
    print "All-Time Records vs. Teams"
@@ -255,7 +256,7 @@ def processRecordsVsTeams(opp):
       w = team[0][0]
       l = team[0][1]
       d = team[0][2]
-      print '{:>3} - {:>3} - {:>3}  |  ({:>+#4}) {:>4} {:>4}  |  {team}'.format(w, l, d, opp[team[1]].getGoalDiff(), opp[team[1]].getGoalsFor(), opp[team[1]].getGoalsAgainst(), team=team[1])
+      print '{:>3} - {:>3} - {:>3}  |  ({:>+#4}) {:>4} {:>4}  |  {}'.format(w, l, d, opp[team[1]].getGoalDiff(), opp[team[1]].getGoalsFor(), opp[team[1]].getGoalsAgainst(), team[1])
    return None
 
 

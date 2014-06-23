@@ -1,9 +1,9 @@
 ****** Individual Records ******
 All-Time Scorers
 -------------------------------
-144 - Scott Anderson
+143 - Scott Anderson
  32 - Amy Hasson
- 25 - Jeff Richards
+ 26 - Jeff Richards
  24 - Mark Lee
  22 - Mike Certo
  12 - Jackie Unger
@@ -213,8 +213,8 @@ Winter 2014
 
 Spring 2014
 ----------------
- 10 - Scott Anderson
-  7 - Jeff Richards
+  9 - Scott Anderson
+  8 - Jeff Richards
   7 - Rick Chen
   6 - Mark Lee
   5 - Amy Hasson
