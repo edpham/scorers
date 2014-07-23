@@ -384,12 +384,12 @@ Ridiculous FC
 All-Time Records vs. Teams
   W -   L -   D  |  ( GD )   GF   GA  |  Team
 -------------------------------------------------------------
-  9 -   0 -   0  |  ( +39)   40    1  |  FC Tarof
+ 10 -   0 -   0  |  ( +40)   41    1  |  FC Tarof
   9 -   3 -   0  |  ( +19)   40   21  |  Real Dragginz United FC
   7 -   3 -   4  |  ( +11)   40   29  |  The Usual Suspects
   6 -   0 -   0  |  ( +18)   23    5  |  Big Muddy
   5 -   0 -   0  |  ( +21)   22    1  |  Carpet Sharks
-  4 -   8 -   3  |  (  -3)   33   36  |  Rochambeau
+  4 -   9 -   3  |  (  -5)   33   38  |  Rochambeau
   4 -   1 -   1  |  ( +13)   28   15  |  Los Bichos
   3 -   0 -   0  |  ( +17)   18    1  |  Goonies
   3 -   0 -   0  |  ( +18)   20    2  |  Grasskickers
@@ -420,5 +420,6 @@ Record per Season
   5 -   3 -   1  |  (  +5)   29   24  |  Fall 2013
  11 -   0 -   0  |  ( +47)   57   10  |  Winter 2014
   6 -   1 -   1  |  ( +26)   38   12  |  Spring 2014
+  1 -   1 -   0  |  (  -1)    1    2  |  Summer 2014
 --------------------------------------------------------
- 69 -  18 -  12  |  (+236)  376  140  |  Overall
+ 70 -  19 -  12  |  (+235)  377  142  |  Overall
