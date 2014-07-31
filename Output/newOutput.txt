@@ -1,19 +1,19 @@
 ****** Individual Records ******
 All-Time Scorers
 -------------------------------
-143 - Scott Anderson
- 32 - Amy Hasson
+145 - Scott Anderson
+ 33 - Amy Hasson
  26 - Jeff Richards
  24 - Mark Lee
  22 - Mike Certo
  12 - Jackie Unger
  11 - Ben Johnson
+  9 - Kyle Smith
   8 - David Ghanaie
   8 - Kathryn Bluher
-  8 - Kyle Smith
   8 - Rick Chen
+  7 - Adrienne Oda
   7 - Gamachu Said
-  6 - Adrienne Oda
   6 - Mohammad Zbeeb
   5 - Cody Silva
   5 - Donald Bressler
@@ -222,6 +222,13 @@ Spring 2014
   2 - Adrienne Oda
   1 - Jen Onaga
 
+Summer 2014
+----------------
+  2 - Scott Anderson
+  1 - Adrienne Oda
+  1 - Amy Hasson
+  1 - Kyle Smith
+
 *** Goals Against Each Opponent ***
 Cheetos 
 ----------------
@@ -331,11 +338,11 @@ Big Muddy
 
 The Usual Suspects 
 ----------------
- 16  Scott Anderson
+ 18  Scott Anderson
   7  Mark Lee
-  5  Amy Hasson
+  6  Amy Hasson
+  3  Adrienne Oda
   3  Jeff Richards
-  2  Adrienne Oda
 
 Monsters of Rock 
 ----------------
@@ -386,7 +393,7 @@ All-Time Records vs. Teams
 -------------------------------------------------------------
  10 -   0 -   0  |  ( +40)   41    1  |  FC Tarof
   9 -   3 -   0  |  ( +19)   40   21  |  Real Dragginz United FC
-  7 -   3 -   4  |  ( +11)   40   29  |  The Usual Suspects
+  8 -   3 -   4  |  ( +14)   45   31  |  The Usual Suspects
   6 -   0 -   0  |  ( +18)   23    5  |  Big Muddy
   5 -   0 -   0  |  ( +21)   22    1  |  Carpet Sharks
   4 -   9 -   3  |  (  -5)   33   38  |  Rochambeau
@@ -420,6 +427,6 @@ Record per Season
   5 -   3 -   1  |  (  +5)   29   24  |  Fall 2013
  11 -   0 -   0  |  ( +47)   57   10  |  Winter 2014
   6 -   1 -   1  |  ( +26)   38   12  |  Spring 2014
-  1 -   1 -   0  |  (  -1)    1    2  |  Summer 2014
+  2 -   1 -   0  |  (  +2)    6    4  |  Summer 2014
 --------------------------------------------------------
- 70 -  19 -  12  |  (+235)  377  142  |  Overall
+ 71 -  19 -  12  |  (+238)  382  144  |  Overall
