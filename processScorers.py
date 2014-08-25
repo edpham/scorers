@@ -25,7 +25,8 @@ class Player:
       if season not in self.seasons: self.seasons[season] = 0
       self.seasons[season] = self.seasons[season] + goals
    
-   def addGoalsForGame(self, date, goals):      # Add the number of goals scored for that game and increase total, max
+   def addGoalsForGame(self, date, goals):      # Add the number of goals scored for that game and 
+                                                # increase total, max
       self.dates[date] = goals
       self.total = self.total + goals
       if self.most < goals: self.most = goals
@@ -178,7 +179,8 @@ def processData(data, players, opponents):
 
 
 def processAllTimeScorers(players):
-   allScorers = sorted([(players[player].getPlayerTotal(), player) for player in players], key=lambda x : (-x[0], x[1]))
+   allScorers = sorted([(players[player].getPlayerTotal(), player) for player in players], key=
+                           lambda x : (-x[0], x[1]))
    print "All-Time Scorers"
    print "-------------------------------"
    for scorer in allScorers: print "{:3} - {}".format(scorer[0], scorer[1])
@@ -186,7 +188,8 @@ def processAllTimeScorers(players):
 
 
 def processMostGoalsInGame(players):
-   allScorers = sorted([(players[player].getMostInGame(), player) for player in players], key=lambda x : (-x[0], x[1]))
+   allScorers = sorted([(players[player].getMostInGame(), player) for player in players], key=
+                           lambda x : (-x[0], x[1]))
    print "\nMost Goals in a Game"
    print "--------------------"
    for scorer in allScorers: print "{:3} - {}".format(scorer[0], scorer[1])
@@ -242,20 +245,25 @@ def processFinalStats(opp):
    record = processAllTimeRecord(opp)
    GF, GA = processTeamGoals(opp)
    print '--------------------------------------------------------'
-   print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  |  Overall'.format(record[0], record[1], record[2], GF-GA, GF, GA)
+   print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  |  Overall'.format(record[0], record[1],
+            record[2], GF-GA, GF, GA)
 
 
 def processRecordsVsTeams(opp):
-   allTeams = sorted([(opp[team].getRecord(), team) for team in opp], key=lambda x : (-x[0][0], -x[0][2], x[0][1], x[1]))
+   allTeams = sorted([(opp[team].getRecord(), team) for team in opp], key=lambda x : (-x[0][0], 
+                                                                        -x[0][2], x[0][1], x[1]))
    print "All-Time Records vs. Teams"
    print "------------------------"
-   print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF", "GA", "Team")
+   print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF",
+                   "GA", "Team")
    print "-------------------------------------------------------------"
    for team in allTeams:
       w = team[0][0]
       l = team[0][1]
       d = team[0][2]
-      print '{:>3} - {:>3} - {:>3}  |  ({:>+#4}) {:>4} {:>4}  |  {}'.format(w, l, d, opp[team[1]].getGoalDiff(), opp[team[1]].getGoalsFor(), opp[team[1]].getGoalsAgainst(), team[1])
+      print '{:>3} - {:>3} - {:>3}  |  ({:>+#4}) {:>4} {:>4}  |  {}'.format(w, l, d, 
+         opp[team[1]].getGoalDiff(), opp[team[1]].getGoalsFor(), 
+         opp[team[1]].getGoalsAgainst(), team[1])
    return None
 
 
@@ -278,11 +286,13 @@ def processRecordPerSeason(opponents):
    
    print "\nRecord per Season"
    print "------------------------"
-   print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF", "GA", "Season")
+   print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF", 
+      "GA", "Season")
    print "--------------------------------------------------------"
    for season in listOfSeasons:
       record = seasons[season]
-      print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  |  {}'.format(record[0], record[1], record[2], record[3]-record[4], record[3], record[4], season)
+      print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  |  {}'.format(record[0], record[1],
+             record[2], record[3]-record[4], record[3], record[4], season)
 
 
 def processScorersVsTeams(players):
@@ -303,7 +313,8 @@ def processScorersVsTeams(players):
       if len(sortedScorers) < 5:
          for player in sortedScorers: print "{:>3}  {}".format(player[0], player[1])
       else:
-         for num in range(5): print "{:>3}  {}".format(sortedScorers[num][0], sortedScorers[num][1])
+         for num in range(5): print "{:>3}  {}".format(sortedScorers[num][0], 
+            sortedScorers[num][1])
       print
 
 
