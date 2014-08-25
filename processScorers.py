@@ -127,6 +127,9 @@ class Opponent:
       
    def getSeasonRecord(self, season):
       return self.seasons[season]
+
+   def getAllGames(self):
+      return self.games
    
 
 def processData(data, players, opponents):
@@ -232,11 +235,6 @@ def processTeamGoals(opp):
       GA = opp[team].getGoalsAgainst()
       goalsFor = GF + goalsFor
       goalsAga = GA + goalsAga
-   # print "GF:", "{:>4}".format(goalsFor)
-   # print "GA:", "{:>4}".format(goalsAga)
-   # print "GD:", "{:>+4}".format(goalsFor - goalsAga)
-   # print
-   # return None
    return goalsFor, goalsAga
 
 
@@ -250,6 +248,7 @@ def processFinalStats(opp):
 def processRecordsVsTeams(opp):
    allTeams = sorted([(opp[team].getRecord(), team) for team in opp], key=lambda x : (-x[0][0], -x[0][2], x[0][1], x[1]))
    print "All-Time Records vs. Teams"
+   print "------------------------"
    print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF", "GA", "Team")
    print "-------------------------------------------------------------"
    for team in allTeams:
@@ -278,6 +277,7 @@ def processRecordPerSeason(opponents):
    listOfSeasons = sortSeasons(seasons.keys())
    
    print "\nRecord per Season"
+   print "------------------------"
    print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  |  {}'.format("W", "L", "D", "GD", "GF", "GA", "Season")
    print "--------------------------------------------------------"
    for season in listOfSeasons:
@@ -305,9 +305,64 @@ def processScorersVsTeams(players):
       else:
          for num in range(5): print "{:>3}  {}".format(sortedScorers[num][0], sortedScorers[num][1])
       print
+
+
+def processScoringGraphs(opponents):
+   goalsFor = [0 for num in range(11)]
+   goalsAga = [0 for num in range(11)]
+
+   for opp in opponents:
+      games = opponents[opp].getAllGames()
+      for game in games:
+         if games[game][0] >= 10:
+            goalsFor[10] = goalsFor[10] + 1
+         else:
+            goalsFor[games[game][0]] = goalsFor[games[game][0]] + 1
+
+         if games[game][1] >= 10:
+            goalsAga[10] = goalsAga[10] + 1
+         else:
+            goalsAga[games[game][1]] = goalsAga[games[game][1]] + 1
+
+   print "\nCounts of Goals Scored in a Game\n------------------------"
+   printGraphs(goalsFor)
+
+   print "\nCounts of Goals Conceded in a Game\n------------------------"
+   printGraphs(goalsAga)
+
+def printGraphs(goals):
+   for num in range(11):
+      print "{:>2} |".format(num), 
+      # for num in range(goals[num]): print "*",
+      print goals[num]
+
+
+def processBiggestWinsAndLosses(opponents):
+   wins = []
+   losses = []
+   for opp in opponents:
+      games = opponents[opp].getAllGames()
+      for date in games:
+         data = (opp, date, games[date][0], games[date][1], games[date][0] - games[date][1])
+         if games[date][2] == "Win":
+            wins.append(data)
+         if games[date][2] == "Loss":
+            losses.append(data)
+   biggestWins = sorted(wins, key=lambda x : (-x[4], -x[2], x[3]))
+   biggestLosses = sorted(losses, key=lambda x : (x[4], -x[3], x[2]))
+   print "\nBiggest Wins\n---------------"
+   for num in range(10):
+      print "{:2} -{:2} on {:>10} vs. {}".format(biggestWins[num][2], biggestWins[num][3], 
+                                                   biggestWins[num][1], biggestWins[num][0])
+   print "\nBiggest Losses\n---------------"
+   for num in range(10):
+      print "{:2} -{:2} on {:>10} vs. {}".format(biggestLosses[num][2], biggestLosses[num][3], 
+                                                   biggestLosses[num][1], biggestLosses[num][0])
+   
+   # print losses
       
 
-
+# Other useful methods
 def sortSeasons(seasons):
    orderedSeasons = seasons
    orderedSeasons = [[x.split()[1], x.split()[0]] for x in orderedSeasons]
@@ -337,6 +392,7 @@ def sortSeasons(seasons):
    return orderedSeasons
 
 
+
 # Main method
 def main(args):
    players = {}
@@ -344,16 +400,19 @@ def main(args):
    
    processData(args[1], players, opponents)
    
-   print "****** Individual Records ******"
+   print "****** Individual Records ******\n"
    processAllTimeScorers(players)
    processMostGoalsInGame(players)
    processScorersPerSeason(players)
    processScorersVsTeams(players)
    
-   print "****** Team Records ******"
+   print "****** Team Records ******\n"
    processRecordsVsTeams(opponents)
    processRecordPerSeason(opponents)
    processFinalStats(opponents)
+   # processOtherStats(opponents)
+   processScoringGraphs(opponents)
+   processBiggestWinsAndLosses(opponents)
 
 if __name__ == "__main__":
    main(sys.argv)
