@@ -1,14 +1,14 @@
 ****** Individual Records ******
 All-Time Scorers
 -------------------------------
-145 - Scott Anderson
- 33 - Amy Hasson
- 26 - Jeff Richards
- 24 - Mark Lee
+148 - Scott Anderson
+ 35 - Amy Hasson
+ 27 - Jeff Richards
+ 25 - Mark Lee
  22 - Mike Certo
  12 - Jackie Unger
  11 - Ben Johnson
-  9 - Kyle Smith
+ 10 - Kyle Smith
   8 - David Ghanaie
   8 - Kathryn Bluher
   8 - Rick Chen
@@ -224,10 +224,12 @@ Spring 2014
 
 Summer 2014
 ----------------
-  2 - Scott Anderson
+  5 - Scott Anderson
+  3 - Amy Hasson
+  2 - Kyle Smith
   1 - Adrienne Oda
-  1 - Amy Hasson
-  1 - Kyle Smith
+  1 - Jeff Richards
+  1 - Mark Lee
 
 *** Goals Against Each Opponent ***
 Cheetos 
@@ -316,11 +318,11 @@ Grasskickers
 
 Rochambeau 
 ----------------
- 13  Scott Anderson
+ 15  Scott Anderson
   5  Mark Lee
   3  Amy Hasson
-  2  Jeff Richards
-  2  Rick Chen
+  3  Jeff Richards
+  2  Kyle Smith
 
 Cleats 
 ----------------
@@ -338,9 +340,9 @@ Big Muddy
 
 The Usual Suspects 
 ----------------
- 18  Scott Anderson
-  7  Mark Lee
-  6  Amy Hasson
+ 19  Scott Anderson
+  8  Amy Hasson
+  8  Mark Lee
   3  Adrienne Oda
   3  Jeff Richards
 
@@ -391,12 +393,12 @@ Ridiculous FC
 All-Time Records vs. Teams
   W -   L -   D  |  ( GD )   GF   GA  |  Team
 -------------------------------------------------------------
- 10 -   0 -   0  |  ( +40)   41    1  |  FC Tarof
+ 11 -   0 -   0  |  ( +41)   42    1  |  FC Tarof
+  9 -   3 -   4  |  ( +18)   49   31  |  The Usual Suspects
   9 -   3 -   0  |  ( +19)   40   21  |  Real Dragginz United FC
-  8 -   3 -   4  |  ( +14)   45   31  |  The Usual Suspects
   6 -   0 -   0  |  ( +18)   23    5  |  Big Muddy
   5 -   0 -   0  |  ( +21)   22    1  |  Carpet Sharks
-  4 -   9 -   3  |  (  -5)   33   38  |  Rochambeau
+  4 -  11 -   3  |  (  -9)   37   46  |  Rochambeau
   4 -   1 -   1  |  ( +13)   28   15  |  Los Bichos
   3 -   0 -   0  |  ( +17)   18    1  |  Goonies
   3 -   0 -   0  |  ( +18)   20    2  |  Grasskickers
@@ -427,6 +429,6 @@ Record per Season
   5 -   3 -   1  |  (  +5)   29   24  |  Fall 2013
  11 -   0 -   0  |  ( +47)   57   10  |  Winter 2014
   6 -   1 -   1  |  ( +26)   38   12  |  Spring 2014
-  2 -   1 -   0  |  (  +2)    6    4  |  Summer 2014
+  4 -   3 -   0  |  (  +3)   15   12  |  Summer 2014
 --------------------------------------------------------
- 71 -  19 -  12  |  (+238)  382  144  |  Overall
+ 73 -  21 -  12  |  (+239)  391  152  |  Overall
