@@ -343,9 +343,7 @@ def processScoringGraphs(opponents):
 
 def printGraphs(goals):
    for num in range(11):
-      print "{:>2} |".format(num), 
-      # for num in range(goals[num]): print "*",
-      print goals[num]
+      print "{:>2} | {:>3}".format(num, goals[num])
 
 
 def processBiggestWinsAndLosses(opponents):
@@ -370,7 +368,6 @@ def processBiggestWinsAndLosses(opponents):
       print "{:2} -{:2} on {:>10} vs. {}".format(biggestLosses[num][2], biggestLosses[num][3], 
                                                    biggestLosses[num][1], biggestLosses[num][0])
    
-   # print losses
       
 
 # Other useful methods
@@ -421,7 +418,6 @@ def main(args):
    processRecordsVsTeams(opponents)
    processRecordPerSeason(opponents)
    processFinalStats(opponents)
-   # processOtherStats(opponents)
    processScoringGraphs(opponents)
    processBiggestWinsAndLosses(opponents)
 
