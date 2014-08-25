@@ -1,4 +1,5 @@
 ****** Individual Records ******
+
 All-Time Scorers
 -------------------------------
 148 - Scott Anderson
@@ -390,7 +391,9 @@ Ridiculous FC
   1  Cody Silva
 
 ****** Team Records ******
+
 All-Time Records vs. Teams
+------------------------
   W -   L -   D  |  ( GD )   GF   GA  |  Team
 -------------------------------------------------------------
  11 -   0 -   0  |  ( +41)   42    1  |  FC Tarof
@@ -416,6 +419,7 @@ All-Time Records vs. Teams
   1 -   2 -   0  |  (  +3)    9    6  |  Cheetos
 
 Record per Season
+------------------------
   W -   L -   D  |  ( GD )   GF   GA  |  Season
 --------------------------------------------------------
   4 -   4 -   2  |  (  +1)   28   27  |  Fall 2011
@@ -432,3 +436,57 @@ Record per Season
   4 -   3 -   0  |  (  +3)   15   12  |  Summer 2014
 --------------------------------------------------------
  73 -  21 -  12  |  (+239)  391  152  |  Overall
+
+Counts of Goals Scored in a Game
+------------------------
+ 0 | 6
+ 1 | 11
+ 2 | 23
+ 3 | 18
+ 4 | 11
+ 5 | 14
+ 6 | 7
+ 7 | 8
+ 8 | 5
+ 9 | 2
+10 | 1
+
+Counts of Goals Conceded in a Game
+------------------------
+ 0 | 33
+ 1 | 31
+ 2 | 17
+ 3 | 16
+ 4 | 6
+ 5 | 3
+ 6 | 0
+ 7 | 0
+ 8 | 0
+ 9 | 0
+10 | 0
+
+Biggest Wins
+---------------
+10 - 1 on   3/9/2014 vs. Vikings
+ 9 - 0 on  1/22/2012 vs. Vikings
+ 9 - 0 on  2/24/2013 vs. Goonies
+ 8 - 0 on   3/4/2012 vs. FC Blue Mojo
+ 8 - 0 on  1/29/2012 vs. Grasskickers
+ 7 - 0 on  11/4/2013 vs. FC Tarof
+ 7 - 0 on  4/27/2014 vs. FC Tarof
+ 7 - 0 on  7/15/2012 vs. Big Muddy
+ 7 - 0 on   1/8/2012 vs. Goonies
+ 8 - 2 on  8/25/2013 vs. Toot It and Boot It
+
+Biggest Losses
+---------------
+ 1 - 5 on  10/2/2011 vs. Rochambeau
+ 2 - 5 on 11/17/2013 vs. The Usual Suspects
+ 1 - 4 on  8/24/2014 vs. Rochambeau
+ 3 - 5 on 11/24/2013 vs. Los Bichos
+ 2 - 4 on  9/22/2013 vs. Rochambeau
+ 1 - 3 on   6/2/2013 vs. Rochambeau
+ 1 - 3 on   9/8/2013 vs. Rochambeau
+ 1 - 3 on  8/26/2012 vs. Real Dragginz United FC
+ 0 - 2 on  7/13/2014 vs. Rochambeau
+ 0 - 2 on   5/5/2013 vs. Rochambeau
