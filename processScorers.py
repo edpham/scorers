@@ -209,7 +209,8 @@ def processScorersPerSeason(players):
    
    orderedSeasons = sortSeasons(seasons.keys())
    
-   print "*** Goals In Each Season ***"
+   print "\nGoals In Each Season"
+   print "--------------------\n"
    for season in orderedSeasons:
       sortedSeason = sorted(seasons[season], key=lambda x : (-x[0], x[1]))
       print season
@@ -412,7 +413,7 @@ def main(args):
    processAllTimeScorers(players)
    processMostGoalsInGame(players)
    processScorersPerSeason(players)
-   processScorersVsTeams(players)
+   # processScorersVsTeams(players)
    
    print "****** Team Records ******\n"
    processRecordsVsTeams(opponents)
