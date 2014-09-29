@@ -403,14 +403,16 @@ Result: 5-3 Win vs. The Usual Suspects
 1	Mark Lee
 2/23/2014
 Result: 6-0 Win vs. Lounge Iguana
-2	Scott Anderson
-2	Amy Hasson
-1	Mark Lee
+4   Scott Anderson
+1   Amy Hasson
+1   Adrienne Oda
 3/2/2014
 Result: 5-1 Win vs. Grasskickers
-4	Scott Anderson
-1	Amy Hasson
-1	Adrienne Oda
+1   Jeff Richards
+1   Josh Allen
+1   Alex Durante
+1   Scott Anderson
+1   Amy Hasson
 3/9/2014
 Result: 10-1 Win vs. Vikings
 1	Scott Anderson
@@ -502,3 +504,20 @@ Result: 4-0 Win vs. The Usual Suspects
 8/24/2014
 Result: 1-4 Loss vs. Rochambeau
 1   Kyle Smith
+9/7/2014
+Result: 3-2 Win vs. The Usual Suspects
+1   Alex Durante
+1   Brad Fox
+1   Amy Hasson
+
+-- Fall 2014
+9/14/2014
+Result: 2-3 Loss vs. Rochambeau
+1   Amy Hasson
+1   Mark Lee
+9/21/2014
+Result: 5-3 Win vs. Real Dragginz United FC
+1   Elena Van Galen
+2   Mark Lee
+1   Kathryn Bluher
+1   Rick Chen

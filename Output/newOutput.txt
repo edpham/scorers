@@ -2,17 +2,17 @@
 
 All-Time Scorers
 -------------------------------
-148 - Scott Anderson
- 35 - Amy Hasson
- 27 - Jeff Richards
- 25 - Mark Lee
+147 - Scott Anderson
+ 36 - Amy Hasson
+ 28 - Jeff Richards
+ 27 - Mark Lee
  22 - Mike Certo
  12 - Jackie Unger
  11 - Ben Johnson
  10 - Kyle Smith
+  9 - Kathryn Bluher
+  9 - Rick Chen
   8 - David Ghanaie
-  8 - Kathryn Bluher
-  8 - Rick Chen
   7 - Adrienne Oda
   7 - Gamachu Said
   6 - Mohammad Zbeeb
@@ -24,12 +24,15 @@ All-Time Scorers
   3 - Ike Nwaneshiudu
   3 - Irene Kendig
   3 - Jen Onaga
+  3 - Josh Allen
   3 - Tyler Dixon
+  2 - Alex Durante
   2 - Claire Reinart
   2 - Esteban Gamboa
   2 - Jacob Wegner
-  2 - Josh Allen
   2 - Rosie Jaye
+  1 - Brad Fox
+  1 - Elena Van Galen
   1 - Elin Blinck
   1 - Erin Aten
   1 - Greg Wenges
@@ -61,9 +64,12 @@ Most Goals in a Game
   2 - Rosie Jaye
   2 - Tyler Dixon
   1 - Adrienne Oda
+  1 - Alex Durante
+  1 - Brad Fox
   1 - Claire Reinart
   1 - Cody Silva
   1 - David Ghanaie
+  1 - Elena Van Galen
   1 - Elin Blinck
   1 - Erin Aten
   1 - Esteban Gamboa
@@ -80,7 +86,10 @@ Most Goals in a Game
   1 - Melissa Pellman
   1 - Steven Lattin
 
-*** Goals In Each Season ***
+
+Goals In Each Season
+--------------------
+
 Fall 2011
 ----------------
  18 - Scott Anderson
@@ -199,18 +208,19 @@ Fall 2013
 
 Winter 2014
 ----------------
- 23 - Scott Anderson
- 11 - Amy Hasson
-  6 - Mark Lee
-  3 - Jeff Richards
+ 22 - Scott Anderson
+ 10 - Amy Hasson
+  5 - Mark Lee
+  4 - Jeff Richards
   2 - Jackie Unger
   2 - Jacob Wegner
   2 - Jen Onaga
+  2 - Josh Allen
   2 - Kathryn Bluher
   2 - Rosie Jaye
   1 - Adrienne Oda
+  1 - Alex Durante
   1 - Cody Silva
-  1 - Josh Allen
   1 - Rick Chen
 
 Spring 2014
@@ -226,169 +236,21 @@ Spring 2014
 Summer 2014
 ----------------
   5 - Scott Anderson
-  3 - Amy Hasson
+  4 - Amy Hasson
   2 - Kyle Smith
   1 - Adrienne Oda
+  1 - Alex Durante
+  1 - Brad Fox
   1 - Jeff Richards
   1 - Mark Lee
 
-*** Goals Against Each Opponent ***
-Cheetos 
+Fall 2014
 ----------------
-  2  Ben Johnson
-  2  Scott Anderson
-  1  Amy Hasson
-  1  David Ghanaie
-  1  Erin Aten
-
-Chicken Dinner 
-----------------
-  3  Donald Bressler
-  3  Scott Anderson
-  1  Ben Johnson
-  1  Mike Certo
-
-Toot It and Boot It 
-----------------
-  2  Amy Hasson
-  1  Cody Silva
-  1  Jackie Unger
-  1  Josh Allen
-  1  Kyle Smith
-
-FC Tarof 
-----------------
- 12  Scott Anderson
-  7  Jeff Richards
-  4  Amy Hasson
-  3  Mike Certo
-  2  Andrew Collord
-
-FC Blue Mojo 
-----------------
-  4  Mike Certo
-  2  Scott Anderson
-  1  Jackie Unger
-  1  Melissa Pellman
-
-Empty Growlers 
-----------------
-  3  Scott Anderson
-  2  Amy Hasson
-  1  Jeff Richards
-  1  Josh Allen
-
-Vikings 
-----------------
-  8  Scott Anderson
-  3  Jackie Unger
-  2  Irene Kendig
-  2  Jacob Wegner
-  2  Kathryn Bluher
-
-Matt Damon 
-----------------
-  2  Scott Anderson
-  1  Esteban Gamboa
-  1  Jeff Richards
-  1  Mike Certo
-
-ECS FC Coed Team 
-----------------
-  2  Scott Anderson
-  1  Jackie Unger
-  1  Jeff Richards
-  1  Jen Onaga
-  1  Rick Chen
-
-Lounge Iguana 
-----------------
-  5  Scott Anderson
-  2  Amy Hasson
-  2  Gamachu Said
-  1  Andrew Collord
-  1  Ben Johnson
-
-Grasskickers 
-----------------
-  7  Scott Anderson
-  2  Jackie Unger
-  2  Mike Certo
-  1  Adrienne Oda
-  1  Amy Hasson
-
-Rochambeau 
-----------------
- 15  Scott Anderson
-  5  Mark Lee
-  3  Amy Hasson
-  3  Jeff Richards
-  2  Kyle Smith
-
-Cleats 
-----------------
-  5  Scott Anderson
-  1  Cody Silva
-  1  Jackie Unger
-
-Big Muddy 
-----------------
- 11  Scott Anderson
-  3  Jeff Richards
-  2  Jackie Unger
-  2  Kathryn Bluher
-  2  Mike Certo
-
-The Usual Suspects 
-----------------
- 19  Scott Anderson
-  8  Amy Hasson
-  8  Mark Lee
-  3  Adrienne Oda
-  3  Jeff Richards
-
-Monsters of Rock 
-----------------
-  5  Scott Anderson
-  2  David Ghanaie
-  2  Mike Certo
-
-Los Bichos 
-----------------
- 14  Scott Anderson
-  3  Amy Hasson
-  3  Rick Chen
-  2  Mark Lee
-  2  Mike Certo
-
-Real Dragginz United FC 
-----------------
- 11  Scott Anderson
-  6  Amy Hasson
-  4  Mark Lee
-  4  Mohammad Zbeeb
-  2  David Ghanaie
-
-Carpet Sharks 
-----------------
- 12  Scott Anderson
-  3  Jeff Richards
-  2  Ben Johnson
-  1  Amy Hasson
-  1  Gamachu Said
-
-Goonies 
-----------------
-  7  Scott Anderson
-  2  Jeff Richards
-  2  Tyler Dixon
-  1  Adrienne Oda
-  1  Ben Johnson
-
-Ridiculous FC 
-----------------
-  2  Scott Anderson
-  1  Cody Silva
+  3 - Mark Lee
+  1 - Amy Hasson
+  1 - Elena Van Galen
+  1 - Kathryn Bluher
+  1 - Rick Chen
 
 ****** Team Records ******
 
@@ -397,11 +259,11 @@ All-Time Records vs. Teams
   W -   L -   D  |  ( GD )   GF   GA  |  Team
 -------------------------------------------------------------
  11 -   0 -   0  |  ( +41)   42    1  |  FC Tarof
-  9 -   3 -   4  |  ( +18)   49   31  |  The Usual Suspects
-  9 -   3 -   0  |  ( +19)   40   21  |  Real Dragginz United FC
+ 10 -   3 -   4  |  ( +19)   52   33  |  The Usual Suspects
+ 10 -   3 -   0  |  ( +21)   45   24  |  Real Dragginz United FC
   6 -   0 -   0  |  ( +18)   23    5  |  Big Muddy
   5 -   0 -   0  |  ( +21)   22    1  |  Carpet Sharks
-  4 -  11 -   3  |  (  -9)   37   46  |  Rochambeau
+  4 -  12 -   3  |  ( -10)   39   49  |  Rochambeau
   4 -   1 -   1  |  ( +13)   28   15  |  Los Bichos
   3 -   0 -   0  |  ( +17)   18    1  |  Goonies
   3 -   0 -   0  |  ( +18)   20    2  |  Grasskickers
@@ -433,18 +295,19 @@ Record per Season
   5 -   3 -   1  |  (  +5)   29   24  |  Fall 2013
  11 -   0 -   0  |  ( +47)   57   10  |  Winter 2014
   6 -   1 -   1  |  ( +26)   38   12  |  Spring 2014
-  4 -   3 -   0  |  (  +3)   15   12  |  Summer 2014
+  5 -   3 -   0  |  (  +4)   18   14  |  Summer 2014
+  1 -   1 -   0  |  (  +1)    7    6  |  Fall 2014
 --------------------------------------------------------
- 73 -  21 -  12  |  (+239)  391  152  |  Overall
+ 75 -  22 -  12  |  (+241)  401  160  |  Overall
 
 Counts of Goals Scored in a Game
 ------------------------
  0 |   6
  1 |  11
- 2 |  23
- 3 |  18
+ 2 |  24
+ 3 |  19
  4 |  11
- 5 |  14
+ 5 |  15
  6 |   7
  7 |   8
  8 |   5
@@ -455,8 +318,8 @@ Counts of Goals Conceded in a Game
 ------------------------
  0 |  33
  1 |  31
- 2 |  17
- 3 |  16
+ 2 |  18
+ 3 |  18
  4 |   6
  5 |   3
  6 |   0
