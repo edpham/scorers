@@ -2,10 +2,10 @@
 
 All-Time Scorers
 -------------------------------
-147 - Scott Anderson
- 36 - Amy Hasson
+148 - Scott Anderson
+ 38 - Amy Hasson
+ 29 - Mark Lee
  28 - Jeff Richards
- 27 - Mark Lee
  22 - Mike Certo
  12 - Jackie Unger
  11 - Ben Johnson
@@ -15,24 +15,24 @@ All-Time Scorers
   8 - David Ghanaie
   7 - Adrienne Oda
   7 - Gamachu Said
+  6 - Melissa Pellman
   6 - Mohammad Zbeeb
   5 - Cody Silva
   5 - Donald Bressler
-  5 - Melissa Pellman
   4 - Andrew Collord
+  3 - Alex Durante
   3 - Ian Williams
   3 - Ike Nwaneshiudu
   3 - Irene Kendig
   3 - Jen Onaga
   3 - Josh Allen
   3 - Tyler Dixon
-  2 - Alex Durante
   2 - Claire Reinart
   2 - Esteban Gamboa
   2 - Jacob Wegner
   2 - Rosie Jaye
   1 - Brad Fox
-  1 - Elena Van Galen
+  1 - Elena Van Galer
   1 - Elin Blinck
   1 - Erin Aten
   1 - Greg Wenges
@@ -69,7 +69,7 @@ Most Goals in a Game
   1 - Claire Reinart
   1 - Cody Silva
   1 - David Ghanaie
-  1 - Elena Van Galen
+  1 - Elena Van Galer
   1 - Elin Blinck
   1 - Erin Aten
   1 - Esteban Gamboa
@@ -246,11 +246,14 @@ Summer 2014
 
 Fall 2014
 ----------------
-  3 - Mark Lee
-  1 - Amy Hasson
-  1 - Elena Van Galen
+  5 - Mark Lee
+  3 - Amy Hasson
+  1 - Alex Durante
+  1 - Elena Van Galer
   1 - Kathryn Bluher
+  1 - Melissa Pellman
   1 - Rick Chen
+  1 - Scott Anderson
 
 ****** Team Records ******
 
@@ -262,9 +265,9 @@ All-Time Records vs. Teams
  10 -   3 -   4  |  ( +19)   52   33  |  The Usual Suspects
  10 -   3 -   0  |  ( +21)   45   24  |  Real Dragginz United FC
   6 -   0 -   0  |  ( +18)   23    5  |  Big Muddy
+  5 -   1 -   1  |  ( +19)   35   16  |  Los Bichos
   5 -   0 -   0  |  ( +21)   22    1  |  Carpet Sharks
   4 -  12 -   3  |  ( -10)   39   49  |  Rochambeau
-  4 -   1 -   1  |  ( +13)   28   15  |  Los Bichos
   3 -   0 -   0  |  ( +17)   18    1  |  Goonies
   3 -   0 -   0  |  ( +18)   20    2  |  Grasskickers
   3 -   0 -   0  |  ( +23)   26    3  |  Vikings
@@ -296,9 +299,9 @@ Record per Season
  11 -   0 -   0  |  ( +47)   57   10  |  Winter 2014
   6 -   1 -   1  |  ( +26)   38   12  |  Spring 2014
   5 -   3 -   0  |  (  +4)   18   14  |  Summer 2014
-  1 -   1 -   0  |  (  +1)    7    6  |  Fall 2014
+  2 -   1 -   0  |  (  +7)   14    7  |  Fall 2014
 --------------------------------------------------------
- 75 -  22 -  12  |  (+241)  401  160  |  Overall
+ 76 -  22 -  12  |  (+247)  408  161  |  Overall
 
 Counts of Goals Scored in a Game
 ------------------------
@@ -309,7 +312,7 @@ Counts of Goals Scored in a Game
  4 |  11
  5 |  15
  6 |   7
- 7 |   8
+ 7 |   9
  8 |   5
  9 |   2
 10 |   1
@@ -317,7 +320,7 @@ Counts of Goals Scored in a Game
 Counts of Goals Conceded in a Game
 ------------------------
  0 |  33
- 1 |  31
+ 1 |  32
  2 |  18
  3 |  18
  4 |   6
