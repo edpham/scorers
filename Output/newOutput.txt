@@ -2,9 +2,9 @@
 
 All-Time Scorers
 -------------------------------
-148 - Scott Anderson
- 38 - Amy Hasson
- 29 - Mark Lee
+149 - Scott Anderson
+ 39 - Amy Hasson
+ 30 - Mark Lee
  28 - Jeff Richards
  22 - Mike Certo
  12 - Jackie Unger
@@ -246,14 +246,14 @@ Summer 2014
 
 Fall 2014
 ----------------
-  5 - Mark Lee
-  3 - Amy Hasson
+  6 - Mark Lee
+  4 - Amy Hasson
+  2 - Scott Anderson
   1 - Alex Durante
   1 - Elena Van Galer
   1 - Kathryn Bluher
   1 - Melissa Pellman
   1 - Rick Chen
-  1 - Scott Anderson
 
 ****** Team Records ******
 
@@ -261,7 +261,7 @@ All-Time Records vs. Teams
 ------------------------
   W -   L -   D  |  ( GD )   GF   GA  |  Team
 -------------------------------------------------------------
- 11 -   0 -   0  |  ( +41)   42    1  |  FC Tarof
+ 12 -   0 -   0  |  ( +42)   45    3  |  FC Tarof
  10 -   3 -   4  |  ( +19)   52   33  |  The Usual Suspects
  10 -   3 -   0  |  ( +21)   45   24  |  Real Dragginz United FC
   6 -   0 -   0  |  ( +18)   23    5  |  Big Muddy
@@ -299,16 +299,16 @@ Record per Season
  11 -   0 -   0  |  ( +47)   57   10  |  Winter 2014
   6 -   1 -   1  |  ( +26)   38   12  |  Spring 2014
   5 -   3 -   0  |  (  +4)   18   14  |  Summer 2014
-  2 -   1 -   0  |  (  +7)   14    7  |  Fall 2014
+  3 -   1 -   0  |  (  +8)   17    9  |  Fall 2014
 --------------------------------------------------------
- 76 -  22 -  12  |  (+247)  408  161  |  Overall
+ 77 -  22 -  12  |  (+248)  411  163  |  Overall
 
 Counts of Goals Scored in a Game
 ------------------------
  0 |   6
  1 |  11
  2 |  24
- 3 |  19
+ 3 |  20
  4 |  11
  5 |  15
  6 |   7
@@ -321,7 +321,7 @@ Counts of Goals Conceded in a Game
 ------------------------
  0 |  33
  1 |  32
- 2 |  18
+ 2 |  19
  3 |  18
  4 |   6
  5 |   3
