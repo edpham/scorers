@@ -228,9 +228,8 @@ def processAllTimeRecord(opp):
    allTime = [0, 0, 0]
    for team in opp:
       record = opp[team].getRecord()
-      allTime[0] = allTime[0] + record[0]
-      allTime[1] = allTime[1] + record[1]
-      allTime[2] = allTime[2] + record[2]
+      for num in range(3):
+         allTime[num] = allTime[num] + record[num]
    return allTime
 
 
@@ -280,11 +279,8 @@ def processRecordPerSeason(opponents):
          if season not in seasons: seasons[season] = [0, 0, 0, 0, 0]
          total = seasons[season]
          record = opponents[opp].getSeasonRecord(season)
-         total[0] = record[0] + total[0]
-         total[1] = record[1] + total[1]
-         total[2] = record[2] + total[2]
-         total[3] = record[3] + total[3]
-         total[4] = record[4] + total[4]
+         for num in range(5):
+            total[num] = record[num] + total[num]
          seasons[season] = total
    
    listOfSeasons = sortSeasons(seasons.keys())
