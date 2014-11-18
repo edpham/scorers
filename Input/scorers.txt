@@ -533,3 +533,28 @@ Result: 3-2 Win vs. FC Tarof
 1   Amy Hasson
 1   Mark Lee
 1   Scott Anderson
+10/12/2014
+Result: 4-1 Win vs. Los Bichos
+3   Amy Hasson
+1   Mark Lee
+10/19/2014
+Result: 2-1 Win vs. FC Tarof
+1   Megan Lillick
+1   Brad Fox
+10/26/2014
+Result: 3-3 Tie vs. Rochambeau
+1   Amy Hasson
+1   Kevin Mueller
+1   Mark Lee
+11/9/2014
+Result: 5-2 Win vs. Real Dragginz United FC
+1   Mark Lee
+1   Amy Hasson
+2   Kevin Mueller
+1   Scott Anderson
+11/16/2014
+Result: 6-4 Win vs. Los Bichos
+1   Rick Chen
+3   Scott Anderson
+1   Kevin Mueller
+1   Amy Hasson   
