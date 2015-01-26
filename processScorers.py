@@ -224,6 +224,24 @@ def processScorersPerSeason(players):
    return None
 
 
+def processSingleSeasonRecords(players):
+   record = []
+   for player in players:
+      for season in players[player].getSeasonsPlayed():
+         record.append((players[player].getSeasonTotal(season), player, season))
+
+   sortedRecord = sorted(record, key=lambda x : (-x[0], x[1]))
+
+   print '\nMost Goals in a Season'
+   print '-----------------------'
+   for n in range(15):
+      print '{:3} - {} ({})'.format(sortedRecord[n][0], sortedRecord[n][1], sortedRecord[n][2])
+
+   for n in range(len(sortedRecord) - 15):
+      if sortedRecord[n + 15][0] == sortedRecord[14][0]:
+         print '{:3} - {} ({})'.format(sortedRecord[n + 15][0], sortedRecord[n + 15][1], sortedRecord[n + 15][2])
+
+
 def processAllTimeRecord(opp):
    allTime = [0, 0, 0]
    for team in opp:
@@ -248,8 +266,11 @@ def processFinalStats(opp):
    record = processAllTimeRecord(opp)
    GF, GA = processTeamGoals(opp)
    print '--------------------------------------------------------'
-   print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  | {:.2f} | {:.2f} | Overall'.format(record[0], record[1],
-            record[2], GF-GA, GF, GA, GF/float(sum(record[0:2])), GA/float(sum(record[0:2])))
+   print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  | {:.2f} | {:.2f} | Overall ({} Games)'.format(record[0], record[1],
+            record[2], GF-GA, GF, GA, GF/float(sum(record[0:3])), GA/float(sum(record[0:3])), sum(record[0:3]))
+
+   print '\n{:.2f}% win percentage\n{:.2f}% point percentage'.format(float(record[0])/sum(record[0:3]) * 100, 
+                                                                  (record[0] + (record[2] / 2.0))/sum(record[0:3]) * 100)
 
 
 def processRecordsVsTeams(opp):
@@ -258,7 +279,7 @@ def processRecordsVsTeams(opp):
    print "All-Time Records vs. Teams"
    print "------------------------"
    print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  | {:>4} | {:>4} | {}'.format("W", "L", "D", "GD", "GF",
-                   "GA", "GFA", "GAA", "Team")
+                   "GA", "AVGF", "AVGA", "Team")
    print "-------------------------------------------------------------"
    for team in allTeams:
       w = team[0][0]
@@ -266,8 +287,8 @@ def processRecordsVsTeams(opp):
       d = team[0][2]
       print '{:>3} - {:>3} - {:>3}  |  ({:>+#4}) {:>4} {:>4}  | {:.2f} | {:.2f} | {}'.format(w, l, d, 
          opp[team[1]].getGoalDiff(), opp[team[1]].getGoalsFor(), 
-         opp[team[1]].getGoalsAgainst(), opp[team[1]].getGoalsFor()/float(sum(team[0][0:2])),
-         opp[team[1]].getGoalsAgainst()/float(sum(team[0][0:2])), team[1])
+         opp[team[1]].getGoalsAgainst(), opp[team[1]].getGoalsFor()/float(sum(team[0][0:3])),
+         opp[team[1]].getGoalsAgainst()/float(sum(team[0][0:3])), team[1])
    return None
 
 
@@ -288,13 +309,13 @@ def processRecordPerSeason(opponents):
    print "\nRecord per Season"
    print "------------------------"
    print '{:>3} - {:>3} - {:>3}  |  ({:^4}) {:>4} {:>4}  | {:>4} | {:>4} | {}'.format("W", "L", "D", "GD", "GF", 
-      "GA", "GFA", "GAA", "Season")
+      "GA", "AVGF", "AVGA", "Season")
    print "--------------------------------------------------------"
    for season in listOfSeasons:
       record = seasons[season]
       print '{:>3} - {:>3} - {:>3}  |  ({:>+4}) {:>4} {:>4}  | {:.2f} | {:.2f} | {}'.format(record[0], record[1],
-             record[2], record[3]-record[4], record[3], record[4], record[3]/float(sum(record[0:2])),
-             record[4]/float(sum(record[0:2])), season)
+             record[2], record[3]-record[4], record[3], record[4], record[3]/float(sum(record[0:3])),
+             record[4]/float(sum(record[0:3])), season)
 
 
 def processScorersVsTeams(players):
@@ -412,8 +433,10 @@ def main(args):
    
    print "****** Individual Records ******\n"
    processAllTimeScorers(players)
+   processSingleSeasonRecords(players)
    processMostGoalsInGame(players)
    processScorersPerSeason(players)
+
    # processScorersVsTeams(players)
    
    print "****** Team Records ******\n"
